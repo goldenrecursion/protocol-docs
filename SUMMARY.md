@@ -15,3 +15,8 @@
 ## Reference
 
 * [API Reference](reference/api-reference.md)
+
+## Golden Info.
+
+* [Golden Protocol](golden-info./golden-protocol.md)
+* [FAQ](golden-info./faq.md)

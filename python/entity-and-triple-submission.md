@@ -2,14 +2,6 @@
 
 This is an end-to-end example of submitting entities and triples with Golden's GraphQL API using the python wrapper.
 
-### Prerequisite
-
-You'll need to install the python wrapper package to follow this guide:
-
-```
-pip install git+ssh://git@github.com/goldenrecursion/dapp-api
-```
-
 ### 1. Connect to Golden Web3 API
 
 Let's connect the python wrapper to the Golden GraphQL API.
