@@ -15,8 +15,10 @@
 ## Reference
 
 * [API Reference](reference/api-reference.md)
+* [Python Reference](reference/python-reference.md)
 
 ## Golden Info.
 
 * [Golden Protocol](golden-info./golden-protocol.md)
+* [Add Wallet to Golden.com](golden-info./add-wallet-to-golden.com.md)
 * [FAQ](golden-info./faq.md)
