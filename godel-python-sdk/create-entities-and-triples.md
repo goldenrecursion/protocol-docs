@@ -4,7 +4,11 @@
 
 Let's connect the python wrapper to the Golden GraphQL API.
 
-You can run your basic queries against the API, but will be restricted from mutations and queries that require you to connect or authenticate your wallet.
+You can run your basic queries against the API without authenticating, but will be restricted from mutations and certain queries until you connect using your `USER_ID` (your wallet address) and `PRIVATE_KEY` (wallet secret).
+
+{% hint style="info" %}
+If you encounter errors with connection, ensure that the wallet being used has been connected to your profile at [Golden.com](https://golden.com) and that you have submitted at least one triple.&#x20;
+{% endhint %}
 
 ```python
 USER_ID = "0x878sd7b9n90n9ew8e8ew8er9r9ter98bb"
