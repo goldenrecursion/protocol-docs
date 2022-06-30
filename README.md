@@ -22,6 +22,8 @@ Correct validations (those that agree with the consensus validation vote on the 
 **Please read the** [**Triple Validation Guide**](https://www.notion.so/goldenhq/Triple-Validation-Guide-84ec0a78cfe941b9876007cccca61b31) **before submitting or validating triples.**
 {% endhint %}
 
+Developers using the Golden API to create agents that submit and validate triples are encouraged to join the [Golden Discord group](https://discord.gg/golden-protocol) to share ideas, feedback, and requests**.**
+
 ## Full Reference
 
 Already have experience with GraphQL APIs and just want to jump in? Check out the API reference and GraphiQL console.
