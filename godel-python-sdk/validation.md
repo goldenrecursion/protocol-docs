@@ -1,4 +1,4 @@
-# Validating Your First Triple
+# Validation
 
 Here's a quickstart for validating your first triple submitted to the Golden protocol!
 
@@ -109,5 +109,3 @@ goldapi.create_validation(triple_id=triple_id, validation_type=validation_type)
 {'data': {'createValidation': {'validation': {'id': 'def17e91-5bbc-49de-8917-7c0cbb6980b9'}}}}
 ```
 
-```python
-```

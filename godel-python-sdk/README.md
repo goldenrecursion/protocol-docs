@@ -12,8 +12,8 @@ In order to help agents and developers programmatically submit data via. the Gra
 
 The following pages will provide additional guides and walkthroughs for ingesting data in the form of python code to help developers submit accurate and valuable data to Golden's protocol.
 
-{% content-ref url="validating-your-first-triple.md" %}
-[validating-your-first-triple.md](validating-your-first-triple.md)
+{% content-ref url="validation.md" %}
+[validation.md](validation.md)
 {% endcontent-ref %}
 
 {% content-ref url="create-entities-and-triples.md" %}
@@ -28,40 +28,6 @@ Godel is Golden's open-source Python SDK that will provide developers and agents
 
 Godel's repository includes a python package and software to help provide developers with an API wrapper, data processing framework, and web3 utility toolkit for programmatic data query and ingest.
 
-## Documentation
-
-Godel guides and documentation can be found in [Golden's API Docs](https://golden-1.gitbook.io/api-docs/bIDcMAB995oqcXDPByjt/).
-
-## Installation
-
-Godel requires Python 3.8+
-
-```
-pip install godel
-
-# Add extras to install web3, jupyter, data tools, etc.
-pip install godel[web3,data-tools]
-```
-
-## Quickstart
-
-Query against the protocol GraphQL API to retrieve and explore data in the knowledge graph.
-
-```python
-from godel import GoldenAPI
-
-goldapi = GoldenAPI()
-
-# Retrieve existing triple predicates
-goldapi.predicates()
-
-# Retrive existing entity templates 
-goldapi.templates()
-
-# Search and query for specific entities
-goldapi.entity_search(name="Golden")
-```
-
 ## Docker Setup
 
 Run `docker-compose build` and then `docker-compose up`.
@@ -72,7 +38,7 @@ Images are built with data processing and compute in mind to aid users in their 
 
 ## Contact
 
-For all things related to `godel` and development, please contact the maintainer Andrew Chang at andrew@golden.co or [@achang1618](https://twitter.com/achang1618) for any quesions or comments.
+For all things related to `godel` and development, please contact the maintainer Andrew Chang at andrew@golden.co or [@achang1618](https://twitter.com/achang1618) for any questions or comments.
 
 For all other support, please reach out to support@golden.co.
 

@@ -7,9 +7,10 @@
   * [Resource Limitation](overview/resource-limitation.md)
 * [Guides](guides/README.md)
   * [Authentication](guides/authentication.md)
-  * [Calls with GraphQL](guides/calls-with-graphql.md)
+  * [GraphQL Examples](guides/calls-with-graphql.md)
 * [Godel (Python SDK)](godel-python-sdk/README.md)
-  * [Validating Your First Triple](godel-python-sdk/validating-your-first-triple.md)
+  * [Quickstart](godel-python-sdk/quickstart.md)
+  * [Validation](godel-python-sdk/validation.md)
   * [Create Entities and Triples](godel-python-sdk/create-entities-and-triples.md)
 
 ## Reference
@@ -18,7 +19,6 @@
 
 ## Golden Info.
 
-* [Golden Protocol](golden-info./golden-protocol.md)
 * [Add Wallet to Golden.com](golden-info./add-wallet-to-golden.com.md)
 * [Open Source](golden-info./open-source.md)
-* [FAQ](golden-info./faq.md)
+* [Golden Overview and FAQ](golden-info./golden-overview-and-faq.md)

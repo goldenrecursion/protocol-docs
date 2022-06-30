@@ -65,8 +65,6 @@ results_df = pd.DataFrame(results["data"]["entityByName"]["nodes"])
 results_df
 ```
 
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
-
 |    | id                                   | name                                       | description                                       | thumbnail                                         | goldenId | pathname                                     |
 | -- | ------------------------------------ | ------------------------------------------ | ------------------------------------------------- | ------------------------------------------------- | -------- | -------------------------------------------- |
 | 0  | 5c0d11ad-b6e7-4d08-a0f1-6a224d93f3a1 | Golden                                     | Golden is a company started in San Francisco, ... | https://golden-media.s3.amazonaws.com/topics/5... | None     | /entity/5c0d11ad-b6e7-4d08-a0f1-6a224d93f3a1 |
@@ -104,8 +102,6 @@ for p in goldapi.predicates()["data"]["predicates"]["edges"]:
 predicates_df = pd.DataFrame(predicates).transpose()
 predicates_df
 ```
-
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
 
 |                        | id                                   | objectType |
 | ---------------------- | ------------------------------------ | ---------- |
@@ -155,8 +151,6 @@ for t in goldapi.templates()["data"]["templates"]["edges"]:
 templates_df = pd.DataFrame(templates).transpose()
 templates_df
 ```
-
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
 
 |         | id                                   | entityId                             | entityDescription |
 | ------- | ------------------------------------ | ------------------------------------ | ----------------- |
@@ -226,8 +220,6 @@ blockchains = pd.DataFrame(source_data)
 entities = [(name, description, thumbnail, website_url, golden_url) for name, description, thumbnail, website_url, golden_url in zip(blockchains['Name'], blockchains['Description'], blockchains['Thumbnail'], blockchains['Website URL'], blockchains["Url"])]
 blockchains
 ```
-
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
 
 |   | Name            | Description                                       | Thumbnail                                         | Url                                              | Website URL                                       | Industry                                          | Location                                          |
 | - | --------------- | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
@@ -317,8 +309,6 @@ created_data_df = pd.DataFrame([d["data"]["createEntity"]["entity"] for d in cre
 created_data_df
 ```
 
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
-
 |   | \_\_typename | id                                   | name            | description                                       | thumbnail                                         | isA                               | statementsBySubjectId                                |
 | - | ------------ | ------------------------------------ | --------------- | ------------------------------------------------- | ------------------------------------------------- | --------------------------------- | ---------------------------------------------------- |
 | 0 | Entity       | b355c9e6-a2c4-4ccc-a984-989df851344d | HydraDX (HDX)   | HydraDX is a basilisk - cross-chain liquidity ... | https://golden-storage-production.s3.amazonaws... | {'nodes': \[{'name': 'Company'}]} | {'nodes': \[{'\_\_typename': 'Statement', 'dateRe... |
@@ -336,8 +326,6 @@ entity_triples = predicates_df[predicates_df.objectType=="ENTITY"]
 entity_triple_choices = list(entity_triples.id)
 entity_triples
 ```
-
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
 
 |            | id                                   | objectType |
 | ---------- | ------------------------------------ | ---------- |
@@ -372,22 +360,4 @@ link
 
 ```
 'https://dapp.golden.xyz/entity/b355c9e6-a2c4-4ccc-a984-989df851344d'
-```
-
-```python
-```
-
-```python
-```
-
-```python
-```
-
-```python
-```
-
-```python
-```
-
-```python
 ```
