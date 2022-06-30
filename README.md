@@ -30,7 +30,6 @@ Read through our guides to get comfortable with forming GraphQL requests and the
 
 The Golden community highly encourages data-oriented developers to interact with the Golden protocol, so we provide our very own python wrapper to help you get started.
 
-{% content-ref url="python/" %}
-[python](python/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
-

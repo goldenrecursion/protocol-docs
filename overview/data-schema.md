@@ -35,6 +35,6 @@ query {
 
 Introspection to actually used to generate python modules for our easy to use python wrapper.
 
-{% content-ref url="../python/" %}
-[python](../python/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
