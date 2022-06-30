@@ -15,7 +15,6 @@
 ## Reference
 
 * [API Reference](reference/api-reference.md)
-* [Python Reference](reference/python-reference.md)
 
 ## Golden Info.
 
