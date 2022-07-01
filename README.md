@@ -6,6 +6,8 @@ description: >-
 
 # Golden API Docs
 
+![](.gitbook/assets/golden\_api\_docs.png)
+
 ## GraphQL API
 
 Golden's GraphQL API offers developers powerful and flexible queries to retrieve, submit, and validate the data in the Golden protocol. For more information on Golden and the protocol please read the [Golden Protocol FAQ](https://www.notion.so/goldenhq/Golden-Protocol-FAQ-78ae2357b9af44aeaa655cb1b1966ee4) guide.
