@@ -4,7 +4,7 @@ Some queries and mutations will require authentication given your user account a
 
 ## Manually with Browser
 
-1. Log in at [Golden](https://dapp.golden.xyz) by connecting your wallet.
+1. Log in at[ dapp.golden.xyz](https://dapp.golden.xyz) by connecting your wallet.
 2. Inspect your browser (cmd+option+i or F12) and refresh the page.
 3. Go to the `network` tab in the inspector.
 4. Look for any calls reaching hitting `dapp.golden.xyz` endpoints and click on it
