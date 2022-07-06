@@ -4,7 +4,7 @@ description: >-
   graph API!
 ---
 
-# Golden API Docs
+# Golden Protocol API Docs
 
 ![](.gitbook/assets/golden\_api\_docs.png)
 
@@ -20,6 +20,8 @@ Golden has prestaked testnet points to wallets with a certain number of testnet 
 Validators submitting incorrect validations (those that do not agree with the consensus validation vote on a triple) will be penalized by losing a portion of their testnet points (testnet points will be used to calculate future eligible airdrops). In extreme cases, validators may lose all of their testnet points and/or their access to dApp.
 
 Correct validations (those that agree with the consensus validation vote on the triple) will be rewarded with testnet points.
+
+Attribution and eligibility for testnet points on triple submissions will be assigned by the earliest timestamped transaction.&#x20;
 
 **Please read the** [**Triple Validation Guide**](https://www.notion.so/goldenhq/Triple-Validation-Guide-84ec0a78cfe941b9876007cccca61b31) **before submitting or validating triples.**
 {% endhint %}

@@ -1,5 +1,9 @@
 # Create Entities and Triples
 
+A short guide to adding data to the Golden decentralized knowledge graph using the `godel` SDK. Please see the [Golden Protocol FAQ Guide](https://www.notion.so/goldenhq/Golden-Protocol-FAQ-78ae2357b9af44aeaa655cb1b1966ee4) and the [Adding Structured Data Guide](https://www.notion.so/goldenhq/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to learn more about Golden, data submission, and rewards.&#x20;
+
+> Note: Attribution and eligibility for testnet points on triple submissions will be assigned by the earliest timestamped transaction. &#x20;
+
 ### 1. Connect to Golden Web3 API
 
 Let's connect the python wrapper to the Golden GraphQL API.
@@ -7,7 +11,7 @@ Let's connect the python wrapper to the Golden GraphQL API.
 You can run your basic queries against the API without authenticating, but will be restricted from mutations and certain queries until you connect using your `USER_ID` (your wallet address) and `PRIVATE_KEY` (wallet secret).
 
 {% hint style="info" %}
-If you encounter errors with connection, ensure that the wallet being used has been connected to your profile at [Golden.com](https://golden.com) and that you have submitted at least one triple.&#x20;
+If you encounter errors with connection, ensure that the wallet being used has been connected to your profile at [Golden.com](https://golden.com) and that you have submitted at least one triple.
 {% endhint %}
 
 ```python

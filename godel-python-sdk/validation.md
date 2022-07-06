@@ -1,6 +1,6 @@
 # Validation
 
-Here's a quickstart for validating your first triple submitted to the Golden protocol!
+Here is a short guide to validating triples on the Golden protocol. Before casting votes, be sure to read the [**Triple Validation Guide**](https://www.notion.so/goldenhq/Triple-Validation-Guide-84ec0a78cfe941b9876007cccca61b31)**.**&#x20;
 
 ### 1. Connect to Golden Web3 API
 
