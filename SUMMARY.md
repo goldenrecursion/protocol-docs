@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Golden API Docs](README.md)
+* [Golden Protocol API Docs](README.md)
 * [Overview](overview/README.md)
   * [Data Schema](overview/data-schema.md)
   * [Changelog](overview/changelog.md)
@@ -22,3 +22,4 @@
 * [Add Wallet to Golden.com](golden-info./add-wallet-to-golden.com.md)
 * [Open Source](golden-info./open-source.md)
 * [Golden Overview and FAQ](golden-info./golden-overview-and-faq.md)
+* [Terms and Policies](golden-info./terms-and-policies.md)

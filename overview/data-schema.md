@@ -1,10 +1,10 @@
 # Data Schema
 
-Golden's GraphQL API is introspective, meaning it can be used to retrieve details about the GraphQL schema itself.
-
 {% embed url="https://dapp.golden.xyz/graphiql" %}
 
-Try the following queries in the [GraphiQL](https://dapp.golden.xyz/graphiql) explorer to retrieve details about the schema and explicit types:
+Golden's GraphQL API is introspective meaning you can retrieve details about the GraphQL schema itself
+
+Try the following in the GraphiQL explorer to retrieve details abou the schema and explicit types:
 
 ```graphql
 query {
@@ -32,3 +32,9 @@ query {
   }
 }
 ```
+
+Introspection to actually used to generate python modules for our easy to use python wrapper.
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
