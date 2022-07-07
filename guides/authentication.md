@@ -9,7 +9,9 @@ Some queries and mutations will require authentication using your user account a
 3. Click the 'GraphQL Token' toggle. Your token will be shown below.&#x20;
 4. To use this token, add it to your request headers.  Example headers: `{ "Authorization": "Bearer <your-token-here>" }`. In [GraphiQL](https://dapp.golden.xyz/graphiql), these headers may be added at the bottom of the page (as shown below).
 
-Note: This authentication token will expire routinely by design. When this happens repeat the above steps.   &#x20;
+{% hint style="info" %}
+To expire and refresh your authentication token click the 'Logout' button and reconnect your wallet to log back in. Your authentication token is session-based and designed to periodically expire.&#x20;
+{% endhint %}
 
 ![User profile in dApp](../.gitbook/assets/profile\_token.jpg)
 
