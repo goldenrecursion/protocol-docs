@@ -6,7 +6,7 @@ description: Golden's Python SDK for its Decentralized Canonical Knowledge Graph
 
 The Golden community highly encourages data-oriented developers to efficiently and optimally submit data to the knowledge graph protocol.
 
-In order to help agents and developers programmatically submit data via. the GraphQL API, Golden's has provided an official open source Python SDK called Godel that provides tools like an API wrapper and web3 utililty modules.
+In order to help agents and developers programmatically submit data via the GraphQL API, Golden has provided an official open source Python SDK called Godel that provides tools like an API wrapper and web3 utility modules.
 
 {% embed url="https://github.com/goldenrecursion/godel" %}
 
@@ -22,7 +22,7 @@ The following pages will provide additional guides and walkthroughs for ingestin
 
 ## Overview
 
-[Golden's protocol](https://golden.xyz/) provides users with the opportunity to query from and contribute towards building the world's most extensive decentralized graph of canonical knowledge.
+The [Golden protocol](https://golden.xyz/) provides users with the opportunity to query from and contribute towards building the world's most extensive decentralized graph of canonical knowledge.
 
 Godel is Golden's open-source Python SDK that will provide developers and agents with the tools and means to build applications and extend Golden's protocol.
 
