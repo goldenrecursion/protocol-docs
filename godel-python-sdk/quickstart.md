@@ -23,7 +23,7 @@ goldapi = GoldenAPI()
 # Retrieve existing triple predicates
 goldapi.predicates()
 
-# Retrive existing entity templates 
+# Retrieve existing entity templates 
 goldapi.templates()
 
 # Search and query for specific entities
