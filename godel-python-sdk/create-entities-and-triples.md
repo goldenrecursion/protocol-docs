@@ -297,7 +297,7 @@ for ent in entities:
     create_entity_inputs.append(create_entity_input)
 ```
 
-### WARNING: Running code below may charge gas fees and stake tokens with your wallet. You will lose tokens by submitting the data below.
+### WARNING: Running code below may charge gas fees and stake testnet points with your wallet. You will lose testnet points by submitting the data below.
 
 ```python
 from tqdm import tqdm

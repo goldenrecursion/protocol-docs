@@ -102,7 +102,7 @@ triple_id
 '573e2c32-ae16-4a76-b1d3-85a5775b0a85'
 ```
 
-### WARNING: Running code below may charge gas fees and stake tokens with your wallet. You may lose tokens by submitting the data below.
+### WARNING: Running code below may charge gas fees and stake testnet points with your wallet. You may lose testnet points by submitting the data below.
 
 ```python
 # Create Validation
