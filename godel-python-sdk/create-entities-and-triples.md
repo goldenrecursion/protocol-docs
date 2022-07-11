@@ -31,7 +31,7 @@ This will set the JWT token key in your GoldenAPI object so you should have perm
 
 This step requires installation of [Web3.py](https://github.com/ethereum/web3.py)
 
-You can do this with `pip install godel[web3]` and comes pre-installed if using the godel docker image.
+You can do this with `pip install godel[web3]`, which comes pre-installed when using the godel docker image.
 
 ```python
 # Retrieve one-off nonce from GraphQL API
@@ -98,7 +98,7 @@ results_df
 
 ### 3. Get Predicates and Templates
 
-Can't really create entities and triples without knowing what predicates and templates exist.
+You can run the code below to get the list of accepted predicates into the knowledge graph, its data types, and submit templates for different kinds of entities.
 
 ```python
 import pandas as pd
@@ -297,7 +297,8 @@ for ent in entities:
     create_entity_inputs.append(create_entity_input)
 ```
 
-### WARNING: Running code below may charge gas fees and stake testnet points with your wallet. You will lose testnet points by submitting the data below.
+
+### WARNING: Running the code below may charge gas fees and stake testnet points with your wallet. You may lose testnet points by submitting incorrect data.
 
 ```python
 from tqdm import tqdm
