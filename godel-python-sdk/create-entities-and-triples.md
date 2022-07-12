@@ -327,7 +327,7 @@ created_data_df
 
 ### 5. Add triples
 
-The examples below will not submit triples and are just examples of submitting entity to entity triple statements to the protocol via. the API.
+The examples below will not submit triples and are just examples of submitting entity to entity triple statements to the protocol via the API.
 
 ```python
 entity_triples = predicates_df[predicates_df.objectType=="ENTITY"]
