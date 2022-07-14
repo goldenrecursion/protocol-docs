@@ -1,5 +1,5 @@
 ---
-description: We use GraphiQL for our API reference.
+description: We use GraphiQL as our API reference.
 ---
 
 # API Reference

@@ -29,7 +29,7 @@ This will set the JWT token key in your GoldenAPI object so you should have perm
 
 This step requires installation of [Web3.py](https://github.com/ethereum/web3.py)
 
-You can do this with `pip install godel[web3]` and comes pre-installed if using the godel docker image.
+You can do this with `pip install godel[web3]`, which comes pre-installed when using the godel docker image.
 
 ```python
 # Retrieve one-off nonce from GraphQL API
@@ -65,7 +65,7 @@ JWT TOKEN:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoidXNlcl9yb2xlIiwidXN
 
 ### 3. Retrieve unvalidated triple
 
-There are a couple options for retrieving an unvalidated triple.
+There are a couple ways of retrieving an unvalidated triple.
 
 The first way we'd recommend is to retrieve a validation task from Golden's API. We'll have an endpoint that provides a queue of validation tasks.
 
@@ -102,7 +102,7 @@ triple_id
 '573e2c32-ae16-4a76-b1d3-85a5775b0a85'
 ```
 
-### WARNING: Running code below may charge gas fees and stake testnet points with your wallet. You may lose testnet points by submitting the data below.
+### WARNING: Running the code below may charge gas fees and stake testnet points with your wallet. You may lose testnet points by submitting incorrect data.
 
 ```python
 # Create Validation
