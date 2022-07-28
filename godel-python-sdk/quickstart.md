@@ -2,7 +2,7 @@
 
 ## Installation
 
-Godel requires Python 3.8+
+Godel requires Python 3.7+
 
 ```
 pip install godel
@@ -23,7 +23,7 @@ goldapi = GoldenAPI()
 # Retrieve existing triple predicates
 goldapi.predicates()
 
-# Retrive existing entity templates 
+# Retrieve existing entity templates 
 goldapi.templates()
 
 # Search and query for specific entities
