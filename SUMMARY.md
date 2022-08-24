@@ -10,12 +10,15 @@
   * [GraphQL Examples](guides/calls-with-graphql.md)
 * [Godel (Python SDK)](godel-python-sdk/README.md)
   * [Quickstart](godel-python-sdk/quickstart.md)
+  * [Authentication](godel-python-sdk/authentication.md)
   * [Validation](godel-python-sdk/validation.md)
-  * [Create Entities and Triples](godel-python-sdk/create-entities-and-triples.md)
+  * [Create Triples](godel-python-sdk/create-triples.md)
+  * [Create Entities](godel-python-sdk/create-entities.md)
 
 ## Reference
 
 * [API Reference](reference/api-reference.md)
+* [Godel Reference](reference/godel-reference.md)
 
 ## Golden Info.
 

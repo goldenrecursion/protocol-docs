@@ -12,12 +12,12 @@ In order to help agents and developers programmatically submit data via the Grap
 
 The following pages will provide additional guides and walkthroughs for ingesting data in the form of python code to help developers submit accurate and valuable data to Golden's protocol.
 
-{% content-ref url="validation.md" %}
-[validation.md](validation.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="create-entities-and-triples.md" %}
-[create-entities-and-triples.md](create-entities-and-triples.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## Overview
