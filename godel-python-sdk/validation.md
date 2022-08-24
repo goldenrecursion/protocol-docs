@@ -1,9 +1,3 @@
----
-description: >-
-  Here is a short guide to validating triples on the Golden protocol. Before
-  casting votes, be sure to read the Triple Validation Guide
----
-
 # Validation
 
 Here is a short guide to validating triples on the Golden protocol. Before casting votes, be sure to read the [Triple Validation Guide](https://www.notion.so/goldenhq/Triple-Validation-Guide-84ec0a78cfe941b9876007cccca61b31)

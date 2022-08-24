@@ -1,16 +1,18 @@
 # Create Entities
 
-A short guide to adding Entities with Minimum Disambiguation Triples (MDTs) to the Golden decentralized knowledge graph using the godel SDK. Please see the [Golden Protocol FAQ Guide](https://www.notion.so/goldenhq/Golden-Protocol-FAQ-78ae2357b9af44aeaa655cb1b1966ee4) and the [Adding Structured Data Guide](https://www.notion.so/goldenhq/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to learn more about Golden, data submission, and rewards.
+A short guide to adding Entities with Minimum Disambiguation Triples(MDTs) to the Golden decentralized knowledge graph using the godel SDK. Please see the [Golden Protocol FAQ Guide](https://www.notion.so/goldenhq/Golden-Protocol-FAQ-78ae2357b9af44aeaa655cb1b1966ee4) and the [Adding Structured Data Guide](https://www.notion.so/goldenhq/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to learn more about Golden, data submission, and rewards.
 
 Note: Attribution and eligibility for testnet points on triple submissions will be assigned by the earliest timestamped transaction.
 
 ## Prerequisite
 
+[Authentication](https://docs.golden.xyz/guides/authentication)
+
 [Godel Authentication](https://docs.golden.xyz/godel-python-sdk/authentication)
 
 This guide requires you install Godel's data-tools.
 
-You can do this with `pip install godel[data-tools].`This comes pre-installed if using the godel docker image.
+You can do this with `pip install godel[data-tools]` and comes pre-installed if using the godel docker image.
 
 ### 1. Connect to Golden Web3 API
 
@@ -25,8 +27,6 @@ JWT_TOKEN = "ey098sd908v79899789877986567967845jh567hj5679568df678678daf6786789s
 goldapi = GoldenAPI(jwt_token=JWT_TOKEN)
 ```
 
-&#x20;We are using `pandas` here to make working with data easier, but it is not a requirement. &#x20;
-
 ```python
 import pandas as pd
 
@@ -35,6 +35,8 @@ search_results = goldapi.entity_search(name="Miles")
 search_results_df = pd.DataFrame(search_results["data"]["entityByName"]["nodes"])
 search_results_df
 ```
+
+.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
 
 |   | id                                   | name        | description                                       | thumbnail                                         | goldenId | pathname                                     |
 | - | ------------------------------------ | ----------- | ------------------------------------------------- | ------------------------------------------------- | -------- | -------------------------------------------- |
@@ -52,53 +54,18 @@ for p in goldapi.predicates()["data"]["predicates"]["edges"]:
     p = p["node"]
     predicates[p["name"]] = {"id": p["id"], "objectType": p["objectType"]} 
 predicates_df = pd.DataFrame(predicates).transpose()
-predicates_df
+predicates_df.head()
 ```
 
-|                        | id                                   | objectType |
-| ---------------------- | ------------------------------------ | ---------- |
-| CEO                    | 0a87e996-34b4-46ba-909a-70ab67b1f811 | ENTITY     |
-| Email address          | 0efd0441-1ffc-4e30-8806-e58c434770c8 | STRING     |
-| YouTube channel        | 12acb8fe-0573-4ca8-8cc1-180cc6ba3486 | ANY\_URI   |
-| Total funding amount   | 13a7e8b6-7270-4c99-81e9-9d752e0c295c | FLOAT      |
-| Whitepaper             | 14fa743c-8161-42e8-a92f-5c29c70e87f8 | ANY\_URI   |
-| Full address           | 1551ee2a-f6a0-4a4b-b322-d98d3a696cf3 | STRING     |
-| Pinterest              | 1d7d64c5-c4a1-4889-91c4-2d2da0424dcc | ANY\_URI   |
-| Source Code            | 1e49b96d-f641-4226-91f0-ed42e6de742e | ANY\_URI   |
-| Contact URL            | 27897e2f-5d08-40fe-904d-0b0647fa2ff4 | ANY\_URI   |
-| CEO of                 | 3104de39-071c-47b8-86b4-d62ccc4a4fa6 | ENTITY     |
-| Doctoral Thesis URL    | 33461e27-5454-43c3-b300-88c02a96c280 | ANY\_URI   |
-| Reddit URL             | 36d1a264-da26-4a1a-8f0e-726543749a5f | ANY\_URI   |
-| Website                | 42cb158b-e836-45ed-9b56-034668b8f05a | ANY\_URI   |
-| Start time             | 4b4ff1c9-a053-4bc3-87ef-0713453f9992 | DATE\_TIME |
-| Coinmarketcap URL      | 5387126a-fa27-4a42-8c7f-bf813a6a893d | ANY\_URI   |
-| Pitchbook URL          | 5bbcbd49-c255-4a6b-b84a-dc076849650d | ANY\_URI   |
-| Thumbnail              | 60627261-4e6c-4ebf-8879-914576ade417 | ANY\_URI   |
-| Telegram               | 68d490c8-d8d3-4efe-9670-390df48e1ad6 | ANY\_URI   |
-| End time               | 6b95b113-e331-41bb-8e31-45b198a41ea8 | DATE\_TIME |
-| Founder                | 71ad3d9e-e211-472b-a16d-861737c57ecd | ENTITY     |
-| Medium                 | 71f46d7f-6667-4600-90bf-eb82fbba8e17 | ANY\_URI   |
-| Tiktok                 | 7e593c0c-457a-464d-9dd2-8e1fc5a8b116 | ANY\_URI   |
-| Angellist URL          | 7f15d788-5df1-4ff3-a5e5-4c9e8e2c57af | ANY\_URI   |
-| Description            | 7f3869c1-7dc9-4486-9045-6bade487a49d | STRING     |
-| Linkedin URL           | 8c4d6279-199f-4e46-9ef7-8702bad1e152 | ANY\_URI   |
-| Apple App Store Link   | 92ae90d8-d4f6-476b-9409-89b7d1b846c0 | ANY\_URI   |
-| Is a                   | 94a8d215-ce32-4379-b18e-2aebf0794882 | ENTITY     |
-| Twitter URL            | 9934d828-963f-403a-a0da-7a52e0224ef5 | ANY\_URI   |
-| Date of incorporation  | 9cb6d628-a0f8-48b0-9828-253596b6ad00 | DATE\_TIME |
-| Name                   | a27218b8-6a4d-47bb-95b6-5a55334fac1c | STRING     |
-| Wikidata ID            | b996dfba-6f3b-458e-bb98-61939160fd88 | STRING     |
-| Golden ID              | bb463b8b-b76c-4f6a-9726-65ab5730b69b | INTEGER    |
-| Phone number           | c090be24-6c35-45d8-8a81-32e57a3d48dd | STRING     |
-| Discord URL            | c094b0f7-d34c-4f5e-86b3-801da1c82091 | ANY\_URI   |
-| Instagram              | db592366-1c4c-4087-821e-44699ddd29b6 | ANY\_URI   |
-| Github URL             | e3d0cfb4-3ec1-4ef2-ae08-93fa07aa27dc | ANY\_URI   |
-| Founder of             | e4f94b98-c56a-4bd2-a9fd-5fd11603e7e8 | ENTITY     |
-| Community Forum        | f348c532-bffd-4ad1-b79c-34258d05c1cd | ANY\_URI   |
-| Founded date           | fa1a5ac7-480c-4e44-a545-b0f3dd9d24bf | DATE\_TIME |
-| Facebook URL           | fa39c1f2-bf06-45e9-8995-da919472deb8 | ANY\_URI   |
-| Crunchbase URL         | facb73aa-82db-45ff-bd87-5ce7983d8ca2 | ANY\_URI   |
-| Google Play Store Link | fb06b903-52af-4a79-9126-f2589c2ca881 | ANY\_URI   |
+.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
+
+|                      | id                                   | objectType |
+| -------------------- | ------------------------------------ | ---------- |
+| CEO                  | 0a87e996-34b4-46ba-909a-70ab67b1f811 | ENTITY     |
+| Email address        | 0efd0441-1ffc-4e30-8806-e58c434770c8 | STRING     |
+| YouTube channel      | 12acb8fe-0573-4ca8-8cc1-180cc6ba3486 | ANY\_URI   |
+| Total funding amount | 13a7e8b6-7270-4c99-81e9-9d752e0c295c | FLOAT      |
+| Whitepaper           | 14fa743c-8161-42e8-a92f-5c29c70e87f8 | ANY\_URI   |
 
 ```python
 templates = {}
@@ -108,6 +75,8 @@ for t in goldapi.templates()["data"]["templates"]["edges"]:
 templates_df = pd.DataFrame(templates).transpose()
 templates_df
 ```
+
+.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
 
 |         | id                                   | entityId                             | entityDescription |
 | ------- | ------------------------------------ | ------------------------------------ | ----------------- |
@@ -132,7 +101,7 @@ citation_urls = ["https://golden.com/wiki/johndoe"]
 
 We're going to create the `CreateEntityInput`, which requires Minimum Disambiguated Triples (MDTs).
 
-MDTs specify the required triples you must submit along with the entity you want to create.
+MDTs are the required triples you must submit along with the entity you want to create.
 
 This helps us with disambiguation, deduplication, and arbitrary entity submissions with zero triples.
 
@@ -150,6 +119,10 @@ input CreateEntityInput {
   statements: [StatementInputRecordInput]
 }
 
+
+
+
+
 input StatementInputRecordInput {
   predicateId: UUID!
   objectValue: String
@@ -163,7 +136,7 @@ First, create your triples with the `StatementInputRecordInput`'s.
 
 You'll notice that the "CEO of" statement is commented out. Without this, even if you have the email address statement, you will not be able to submit the entity since it does not fulfill the MDTs required.
 
-Remove the comment-out of the "CEO of" statement to successfully submit the entity.
+Remove the comment-out of the "CEO of" statement to succesfully submit the entity.
 
 ```python
 # Create triples inputs
@@ -235,6 +208,10 @@ data
 ```
 GraphQL query failed with 1 errors
 
+
+
+
+
 {'errors': [{'extensions': {'messages': [], 'exception': {}},
    'message': 'All required statements must be provided:\n- entity type "person" must have a statement from at least one of these predicates: "website", "angelListUrl", "linkedInUrl", "founderOf", "ceoOf"',
    'locations': [{'line': 2, 'column': 1}],
@@ -259,6 +236,8 @@ created_data_df = pd.DataFrame([data["data"]["createEntity"]["entity"]])
 created_data_df
 ```
 
+.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
+
 |   | \_\_typename | id                                   | pathname                                     | name     | description | thumbnail | goldenId | isA                                                | statementsBySubjectId                                |
 | - | ------------ | ------------------------------------ | -------------------------------------------- | -------- | ----------- | --------- | -------- | -------------------------------------------------- | ---------------------------------------------------- |
 | 0 | Entity       | 18998a05-d972-44cc-9d45-c75c9477c98d | /entity/18998a05-d972-44cc-9d45-c75c9477c98d | John Doe | None        | None      | None     | {'nodes': \[{'id': '0c4e6054-5fd8-48a8-817c-f66... | {'nodes': \[{'\_\_typename': 'Statement', 'id': '... |
@@ -274,4 +253,7 @@ link
 
 ```
 'https://dapp.golden.xyz/entity/18998a05-d972-44cc-9d45-c75c9477c98d'
+```
+
+```python
 ```
