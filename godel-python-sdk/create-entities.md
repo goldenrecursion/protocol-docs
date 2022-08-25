@@ -6,13 +6,11 @@ Note: Attribution and eligibility for testnet points on triple submissions will 
 
 ## Prerequisite
 
-[Authentication](https://docs.golden.xyz/guides/authentication)
-
 [Godel Authentication](https://docs.golden.xyz/godel-python-sdk/authentication)
 
 This guide requires you install Godel's data-tools.
 
-You can do this with `pip install godel[data-tools]` and comes pre-installed if using the godel docker image.
+You can do this with `pip install godel[data-tools].` This comes pre-installed if using the godel docker image.
 
 ### 1. Connect to Golden Web3 API
 
@@ -36,8 +34,6 @@ search_results_df = pd.DataFrame(search_results["data"]["entityByName"]["nodes"]
 search_results_df
 ```
 
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
-
 |   | id                                   | name        | description                                       | thumbnail                                         | goldenId | pathname                                     |
 | - | ------------------------------------ | ----------- | ------------------------------------------------- | ------------------------------------------------- | -------- | -------------------------------------------- |
 | 0 | d95ef4b0-e006-4203-bfb4-adbe99f63ce7 | Miles Wolff | Id nihil blanditiis eius fugit odit blanditiis... | https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHir... | None     | /entity/d95ef4b0-e006-4203-bfb4-adbe99f63ce7 |
@@ -57,8 +53,6 @@ predicates_df = pd.DataFrame(predicates).transpose()
 predicates_df.head()
 ```
 
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
-
 |                      | id                                   | objectType |
 | -------------------- | ------------------------------------ | ---------- |
 | CEO                  | 0a87e996-34b4-46ba-909a-70ab67b1f811 | ENTITY     |
@@ -76,14 +70,12 @@ templates_df = pd.DataFrame(templates).transpose()
 templates_df
 ```
 
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
-
 |         | id                                   | entityId                             | entityDescription |
 | ------- | ------------------------------------ | ------------------------------------ | ----------------- |
 | Person  | 0dea0f27-ce0c-4b4f-8ddb-5ff6adb57e12 | 0c4e6054-5fd8-48a8-817c-f6611278f755 | None              |
 | Company | 9553f193-a46a-4b46-9c0f-5287289644a6 | 0a9fcc89-e14b-47af-85c3-8465ca607c29 | None              |
 
-### 4. Create Entity
+### 3. Create Entity
 
 #### Source Data
 
@@ -91,7 +83,7 @@ We need source data on the entity you would like to submit
 
 ```python
 name = "John Doe"
-is_a = "0c4e6054-5fd8-48a8-817c-f6611278f755"  # Persion Template Entity Id
+is_a = "0c4e6054-5fd8-48a8-817c-f6611278f755"  # Person Template Entity Id
 ceo_of = "20ab9281-fd5f-4717-ab73-ecd24fff66fe"  # Huel and Sons Entity ID
 email_address = "john.doe@example.com"
 citation_urls = ["https://golden.com/wiki/johndoe"]
@@ -119,10 +111,6 @@ input CreateEntityInput {
   statements: [StatementInputRecordInput]
 }
 
-
-
-
-
 input StatementInputRecordInput {
   predicateId: UUID!
   objectValue: String
@@ -134,9 +122,9 @@ input StatementInputRecordInput {
 
 First, create your triples with the `StatementInputRecordInput`'s.
 
-You'll notice that the "CEO of" statement is commented out. Without this, even if you have the email address statement, you will not be able to submit the entity since it does not fulfill the MDTs required.
+You'll notice that the "CEO of" statement is commented out. Without this, even if you have the email address statement, you will not be able to submit the entity since it does not fulfill the MDTs required. We are using `pandas` here to make working with data easier, but it is not a requirement. &#x20;
 
-Remove the comment-out of the "CEO of" statement to succesfully submit the entity.
+Remove the comment-out of the "CEO of" statement to successfully submit the entity.
 
 ```python
 # Create triples inputs
@@ -236,13 +224,11 @@ created_data_df = pd.DataFrame([data["data"]["createEntity"]["entity"]])
 created_data_df
 ```
 
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
-
 |   | \_\_typename | id                                   | pathname                                     | name     | description | thumbnail | goldenId | isA                                                | statementsBySubjectId                                |
 | - | ------------ | ------------------------------------ | -------------------------------------------- | -------- | ----------- | --------- | -------- | -------------------------------------------------- | ---------------------------------------------------- |
 | 0 | Entity       | 18998a05-d972-44cc-9d45-c75c9477c98d | /entity/18998a05-d972-44cc-9d45-c75c9477c98d | John Doe | None        | None      | None     | {'nodes': \[{'id': '0c4e6054-5fd8-48a8-817c-f66... | {'nodes': \[{'\_\_typename': 'Statement', 'id': '... |
 
-### 6. View Data on dApp
+### 4. View Data on dApp
 
 ```python
 created_entity_id = data["data"]["createEntity"]["entity"]["id"]
@@ -253,7 +239,4 @@ link
 
 ```
 'https://dapp.golden.xyz/entity/18998a05-d972-44cc-9d45-c75c9477c98d'
-```
-
-```python
 ```

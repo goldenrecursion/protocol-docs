@@ -6,13 +6,11 @@ Note: Attribution and eligibility for testnet points on triple submissions will 
 
 ## Prerequisite
 
-[Authentication](https://docs.golden.xyz/guides/authentication)
-
 [Godel Authentication](https://docs.golden.xyz/godel-python-sdk/authentication)
 
 This guide requires you install Godel's data-tools.
 
-You can do this with `pip install godel[data-tools]` and comes pre-installed if using the godel docker image.
+You can do this with `pip install godel[data-tools].` This comes pre-installed if using the godel docker image.
 
 ### 1. Connect to Golden Web3 API
 
@@ -27,7 +25,7 @@ JWT_TOKEN = "ey098sd908v79899789877986567967845jh567hj5679568df678678daf6786789s
 goldapi = GoldenAPI(jwt_token=JWT_TOKEN)
 ```
 
-Test that you can hit the API with `entity_search()`, and we'll save the results so we can use the resulting entity as our subject entity for this guide.
+Test that you can hit the API with `entity_search()`, and we'll save the results so we can use the resulting entity as our subject entity for this guide. We are using `pandas` here to make working with data easier, but it is not a requirement. &#x20;
 
 ```python
 import pandas as pd
@@ -37,8 +35,6 @@ search_results = goldapi.entity_search(name="Miles")
 search_results_df = pd.DataFrame(search_results["data"]["entityByName"]["nodes"])
 search_results_df
 ```
-
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
 
 |   | id                                   | name        | description                                       | thumbnail                                         | goldenId | pathname                                     |
 | - | ------------------------------------ | ----------- | ------------------------------------------------- | ------------------------------------------------- | -------- | -------------------------------------------- |
@@ -58,8 +54,6 @@ for p in goldapi.predicates()["data"]["predicates"]["edges"]:
 predicates_df = pd.DataFrame(predicates).transpose()
 predicates_df.head()
 ```
-
-.dataframe tbody tr th:only-of-type { vertical-align: middle; } .dataframe tbody tr th { vertical-align: top; } .dataframe thead th { text-align: right; }
 
 |                      | id                                   | objectType |
 | -------------------- | ------------------------------------ | ---------- |
@@ -188,7 +182,4 @@ data
      'thumbnail': 'http://loremflickr.com/90/90/business'},
     'citationsByTripleId': {'nodes': [{'url': 'https://golden.com'}]},
     'qualifiersBySubjectId': {'nodes': []}}}}}
-```
-
-```python
 ```
