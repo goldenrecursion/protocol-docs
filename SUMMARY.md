@@ -8,7 +8,7 @@
 * [Guides](guides/README.md)
   * [Authentication](guides/authentication.md)
   * [GraphQL Examples](guides/calls-with-graphql.md)
-* [Godel (Python SDK)](godel-python-sdk/README.md)
+* [Python SDK (Godel)](godel-python-sdk/README.md)
   * [Quickstart](godel-python-sdk/quickstart.md)
   * [Authentication](godel-python-sdk/authentication.md)
   * [Validation](godel-python-sdk/validation.md)
