@@ -2,7 +2,7 @@
 description: Golden's Python SDK for its Decentralized Canonical Knowledge Graph
 ---
 
-# Godel (Python SDK)
+# Python SDK (Godel)
 
 The Golden community highly encourages data-oriented developers to submit data in bulk to the knowledge graph protocol.
 
@@ -12,12 +12,16 @@ In order to help agents and developers programmatically submit data via the Grap
 
 The following pages will provide additional guides and walkthroughs for ingesting data in the form of python code to help developers submit accurate and valuable data to Golden's protocol.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="create-entities.md" %}
+[create-entities.md](create-entities.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="create-triples.md" %}
+[create-triples.md](create-triples.md)
+{% endcontent-ref %}
+
+{% content-ref url="validation.md" %}
+[validation.md](validation.md)
 {% endcontent-ref %}
 
 ## Overview
