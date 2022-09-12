@@ -13,3 +13,7 @@ Golden supports the open source community and its developers by sharing and cont
 ## Golden Tokenomics Simulation
 
 {% embed url="https://github.com/goldenrecursion/simulation" %}
+
+## Protocol Documentation
+
+{% embed url="https://github.com/goldenrecursion/protocol-docs" %}
