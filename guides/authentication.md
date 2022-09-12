@@ -13,7 +13,7 @@ Some queries and mutations will require authentication using your user account a
 To expire and refresh your authentication token click the 'Logout' button and reconnect your wallet to log back in. Your authentication token is session-based and designed to periodically expire.&#x20;
 {% endhint %}
 
-![User profile in dApp](../../.gitbook/assets/profile\_token.jpg)
+![User profile in dApp](../.gitbook/assets/profile\_token.jpg)
 
-![Example token headers in GraphiQL](../../.gitbook/assets/graphiql\_ex.jpg)
+![Example token headers in GraphiQL](../.gitbook/assets/graphiql\_ex.jpg)
 

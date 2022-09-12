@@ -14,6 +14,6 @@ Link to the dApp GraphiQL console
 
 To retrieve your API key, please refer to the authentication guide.
 
-{% content-ref url="guides/authentication.md" %}
-[authentication.md](guides/authentication.md)
+{% content-ref url="../guides/authentication.md" %}
+[authentication.md](../guides/authentication.md)
 {% endcontent-ref %}
