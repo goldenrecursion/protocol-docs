@@ -14,7 +14,4 @@ Data entry tools should be as efficient as possible to maximize the rate informa
   * How can these tools render and implement [minimum-disambiguation-triple-requirements-mdt.md](../concepts/minimum-disambiguation-triple-requirements-mdt.md "mention")?
 * \[Open Question] What is the optimal workflow for a by-hand user to add new entities or triples to the protocol?
 * \[Task] create extensible, open source tools that allow for dataset importing (such as CSV).
-  * Importing should utilize &#x20;
-* \[Task] create methods to help improve accuracy, check for duplicates, or auto-fill empty triples.
-
-Having users be able to submit information at a faster&#x20;
+* \[Task] create and open source methods to help improve accuracy, check for duplicates, or auto-fill empty triples.
