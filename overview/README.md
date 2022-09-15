@@ -18,6 +18,6 @@ This is the overview page; navigate across our documentation with the links belo
 [changelog.md](changelog.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../overview/rate-limits.md" %}
-[rate-limits.md](../../overview/rate-limits.md)
+{% content-ref url="rate-limits.md" %}
+[rate-limits.md](rate-limits.md)
 {% endcontent-ref %}

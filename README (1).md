@@ -6,7 +6,7 @@ description: >-
 
 # Golden Protocol API Docs
 
-![](../.gitbook/assets/golden\_api\_docs.png)
+![](.gitbook/assets/golden\_api\_docs.png)
 
 ## GraphQL API
 
@@ -32,8 +32,8 @@ Developers using the Golden API to create agents that submit and validate triple
 
 Already have experience with GraphQL APIs and just want to jump in? Check out the API reference and GraphiQL console.
 
-{% content-ref url="api-reference.md" %}
-[api-reference.md](api-reference.md)
+{% content-ref url="reference/api-reference.md" %}
+[api-reference.md](reference/api-reference.md)
 {% endcontent-ref %}
 
 ## Guides

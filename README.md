@@ -8,7 +8,7 @@ description: >-
 
 ### Status and progress
 
-Golden [started](https://golden.com/blog/introducing-golden/) as a [web2 company](https://golden.com/wiki/Golden-5R) in San Francisco on a mission to map all human knowledge. We [raised $20m](https://golden.com/blog/golden-raises-14-5m-series-a-led-by-a16z/) from leading VCs and investors ranging from a16z to Balajis to Founders Fund and many others. Since Fall 2021, we have been ramping up efforts to create a web3 version of Golden to increase the speed that the knowledge graph can be built. Golden is building a permissionless, open source [protocol](https://golden.xyz/) that incentivizes the collection and verification of canonical knowledge, which it will offer to the public for free and charge commercial entities.
+Golden [started](https://golden.com/blog/introducing-golden/) as a [web2 company](https://golden.com/wiki/Golden-5R) in San Francisco on a mission to map all human knowledge. We [raised $20m](https://golden.com/blog/golden-raises-14-5m-series-a-led-by-a16z/) from leading VCs and investors ranging from a16z to Balaji to Founders Fund and many others. Since Fall 2021, we have been ramping up efforts to create a web3 version of Golden to increase the speed that the knowledge graph can be built. Golden is building a permissionless, open source [protocol](https://golden.xyz/) that incentivizes the collection and verification of canonical knowledge, which it will offer to the public for free and charge commercial entities.
 
 **User growth:** 10’s of thousands of users (growing daily) have connected wallets to Golden and are submitting data into the protocol.
 

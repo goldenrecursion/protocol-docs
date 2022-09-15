@@ -24,8 +24,8 @@ To create a new entity using the protocol API your application will need to:
 
 You can read more in-depth at:
 
-{% content-ref url="../api/godel-python-sdk/create-entities.md" %}
-[create-entities.md](../api/godel-python-sdk/create-entities.md)
+{% content-ref url="../godel-python-sdk/create-entities.md" %}
+[create-entities.md](../godel-python-sdk/create-entities.md)
 {% endcontent-ref %}
 
 #### Triple Submission
@@ -41,8 +41,8 @@ To submit a triple and citation using the protocol API your application will nee
 
 You can read more in-depth at:
 
-{% content-ref url="../api/godel-python-sdk/create-triples.md" %}
-[create-triples.md](../api/godel-python-sdk/create-triples.md)
+{% content-ref url="../godel-python-sdk/create-triples.md" %}
+[create-triples.md](../godel-python-sdk/create-triples.md)
 {% endcontent-ref %}
 
 #### Validation
@@ -59,6 +59,6 @@ To perform a validation vote using the protocol API your application will need t
 
 You can read more in-depth at:
 
-{% content-ref url="../api/godel-python-sdk/validation.md" %}
-[validation.md](../api/godel-python-sdk/validation.md)
+{% content-ref url="../godel-python-sdk/validation.md" %}
+[validation.md](../godel-python-sdk/validation.md)
 {% endcontent-ref %}

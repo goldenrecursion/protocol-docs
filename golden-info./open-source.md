@@ -1,4 +1,4 @@
-# Open Source
+# Open Source Repositories
 
 Golden supports the open source community and its developers by sharing and contributing to open source technology.
 
