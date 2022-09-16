@@ -104,10 +104,6 @@ We want to prove the unit economics and security of the system first in English 
 
 We are still configuring discord for more mass scale so DMing team members will only slow the protocol development down. However, long term, we are interested in mods and have a backlog to verify and setup systems around it. If you have experience in this area please add to your introductions in the introductions channel and we will see it. We are booting up moderators in a careful way to prevent security issues.
 
-### **What is happening to the valid prose that was written up until** February 16, 2022?
-
-Valid prose will be eligible for partial ownership and revenue share rights for the entity on which the prose was added via an NFT. As of February 16, 2022, _article writing will not be eligible for an airdrop reward to create focus on triples._
-
 ### Can I change the eth account address associated with my [Golden.com](http://golden.com/) account / used to login to dapp.golden.xyz?
 
 You cannot change the eth account address associated with your [golden.com](http://golden.com/) account / used to login to dapp.golden.xyz. This would cause issues with how attribution for effort is tracked. You can always create a new account on [golden.com](http://golden.com/) and connect a new eth account address to it.
