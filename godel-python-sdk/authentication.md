@@ -6,7 +6,7 @@ To authenticate your account with godel you have two options, you may retrieve y
 
 ## Retrieve JWT Token from GUI
 
-Follow the directions at https://docs.golden.xyz/guides/authentication to skip the programmatic authentication and plainly retrieve your JWT token from https://dapp.golden.xyz.
+Follow the directions at [authentication.md](../guides/authentication.md "mention") to skip the programmatic authentication and plainly retrieve your JWT token from https://dapp.golden.xyz.
 
 ## Programmatic Authentication
 
