@@ -21,8 +21,10 @@ Make sure you ran through the prerequisites for this guide and have learned to a
 ```python
 from godel import GoldenAPI
 
-JWT_TOKEN = "ey098sd908v79899789877986567967845jh567hj5679568df678678daf6786789s569ghm567457hm8g567n8678fb8790678sd56756n456h8d4f5gn865648"
-goldapi = GoldenAPI(jwt_token=JWT_TOKEN)
+JWT_TOKEN = **YOUR_JWT_TOKEN_HERE**
+DAPP_URL = "https://dapp.golden.xyz/graphql"
+goldapi = GoldenAPI(url=DAPP_URL)
+goldapi.set_jwt_token(jwt_token=JWT_TOKEN)
 ```
 
 ```python
