@@ -47,6 +47,7 @@
 * [Predicates](governance/predicates/README.md)
   * [Predicate Improvement Process](governance/predicates/predicate-improvement-process.md)
   * [Predicate Composition](governance/predicates/predicate-composition.md)
+  * [Predicate Naming Convention](governance/predicates/predicate-naming-convention.md)
 
 ## ℹ Project Information
 
