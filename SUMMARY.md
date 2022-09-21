@@ -17,13 +17,14 @@
 ## ⚙ API
 
 * [Golden Protocol API Docs](<README (1).md>)
-* [Overview](overview/README.md)
-  * [Data Schema](overview/data-schema.md)
-  * [Changelog](overview/changelog.md)
-  * [Resource Limitation](overview/resource-limitation.md)
 * [Guides](guides/README.md)
   * [Authentication](guides/authentication.md)
-  * [GraphQL Examples](guides/calls-with-graphql.md)
+* [GraphQL API](overview/README.md)
+  * [Data Schema](overview/data-schema.md)
+  * [GraphQL Examples](api/overview/calls-with-graphql.md)
+  * [Changelog](overview/changelog.md)
+  * [Resource Limitation](overview/resource-limitation.md)
+  * [GraphQL API Reference](api/overview/api-reference.md)
 * [Python SDK (Godel)](godel-python-sdk/README.md)
   * [Quickstart](godel-python-sdk/quickstart.md)
   * [Authentication](godel-python-sdk/authentication.md)
@@ -31,7 +32,6 @@
   * [Create Triples](godel-python-sdk/create-triples.md)
   * [Create Entities](godel-python-sdk/create-entities.md)
   * [Godel Reference](reference/godel-reference.md)
-* [API Reference](reference/api-reference.md)
 
 ## 🤖 Superagents and Tools
 

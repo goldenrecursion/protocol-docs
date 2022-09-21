@@ -2,7 +2,7 @@
 
 ### Authentication options
 
-To authenticate your account with godel you have two options, you may retrieve your token from your profile page in the dApp or you may programmatically generate a key using your wallet address and secret keys.&#x20;
+To authenticate your account with the godel python SDK you have two options: you may retrieve your token from your profile page in the dApp or you may programmatically generate a key using your wallet address and secret keys.
 
 ## Retrieve JWT Token from GUI
 
@@ -27,14 +27,15 @@ You can run your basic queries against the API without authenticating, but will 
 Note: If you encounter errors with connection, ensure that the wallet being used has been connected to your profile at
 
 ```python
-USER_ID = "0xd0587b87a875784568gf967679a58f578"
-PRIVATE_KEY = "65687a467467m357ghf476f5846578678a5858a658758ut58587674674x67567"
+USER_ID = #"0x01234...YOUR_WALLET_ID_HERE"
+PRIVATE_KEY = #"YOUR_WALLET_SECRET_HERE"
 ```
 
 ```python
 from godel import GoldenAPI
 
-goldapi = GoldenAPI()
+DAPP_URL = "https://dapp.golden.xyz/graphql"
+goldapi = GoldenAPI(url=DAPP_URL)
 ```
 
 ### 2. Authenticate and set JWT

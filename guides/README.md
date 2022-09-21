@@ -8,6 +8,6 @@ Follow our guides to understanding and interacting with the Golden GraphQL API.
 [authentication.md](authentication.md)
 {% endcontent-ref %}
 
-{% content-ref url="calls-with-graphql.md" %}
-[calls-with-graphql.md](calls-with-graphql.md)
+{% content-ref url="../api/overview/calls-with-graphql.md" %}
+[calls-with-graphql.md](../api/overview/calls-with-graphql.md)
 {% endcontent-ref %}
