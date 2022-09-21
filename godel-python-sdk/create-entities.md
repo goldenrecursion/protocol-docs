@@ -124,7 +124,7 @@ input StatementInputRecordInput {
 
 First, create your triples with the `StatementInputRecordInput`'s.
 
-You'll notice that the "CEO of" statement is commented out. Without this, even if you have the email address statement, you will not be able to submit the entity since it does not fulfill the MDTs required. We are using `pandas` here to make working with data easier, but it is not a requirement. &#x20;
+You'll notice that the "CEO of" statement is commented out. Without this, even if you have the email address statement, you will not be able to submit the entity since it does not fulfill the MDTs required. We are using `pandas` here to make working with data easier, but it is not a requirement.
 
 Remove the comment-out of the "CEO of" statement to successfully submit the entity.
 
@@ -137,7 +137,7 @@ statements.append(
     StatementInputRecordInput(
         predicate_id = predicates["Is a"]["id"],
         object_entity_id = is_a,
-        citation_urls = citation_urls,
+        citation_urls = [],
         qualifiers = [],
     )
 )
@@ -147,7 +147,7 @@ statements.append(
     StatementInputRecordInput(
         predicate_id = predicates["Email address"]["id"],
         object_value = email_address,
-        citation_urls = citation_urls,
+        citation_urls = [],
         qualifiers = [],
     )
 )
@@ -157,7 +157,7 @@ statements.append(
 #     StatementInputRecordInput(
 #         predicate_id = predicates["CEO of"]["id"],
 #         object_entity_id = ceo_of,
-#         citation_urls = citation_urls,
+#         citation_urls = [],
 #         qualifiers = [],
 #     )
 # )
