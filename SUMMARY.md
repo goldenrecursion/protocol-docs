@@ -31,7 +31,7 @@
   * [Validation](godel-python-sdk/validation.md)
   * [Create Triples](godel-python-sdk/create-triples.md)
   * [Create Entities](godel-python-sdk/create-entities.md)
-  * [Godel Reference](reference/godel-reference.md)
+  * [Godel Reference](api/godel-python-sdk/godel-reference.md)
 
 ## 🤖 Superagents and Tools
 

@@ -142,6 +142,16 @@ statements.append(
     )
 )
 
+# Add Name
+statements.append(
+    StatementInputRecordInput(
+        predicate_id = predicates["Name"]["id"],
+        object_value = name,
+        citation_urls = [],
+        qualifiers = [],
+    )
+)
+
 # Add Email Address
 statements.append(
     StatementInputRecordInput(
@@ -168,7 +178,6 @@ Now that you have the statements, you can create your `CreateEntityInput`.
 ```python
 # Create Entity Input
 create_entity_input = CreateEntityInput(
-    name = name,
     statements = statements
 )
 create_entity_input.__to_json_value__()

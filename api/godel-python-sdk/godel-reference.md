@@ -40,15 +40,31 @@ Authenticate your signature with the GraphQL API
 | ------ | ------ | ----------------------------- |
 | `dict` | `dict` | payload with JWT bearer token |
 
+#### `create_entity(create_entity_input, **kwargs)` [¶](broken-reference) <a href="#godel.api.goldenapi.create_entity" id="godel.api.goldenapi.create_entity"></a>
+
+Create an entity given the MDTs/statement inputs required for entity creation.
+
+**Parameters:**
+
+| Name    | Type                | Description         | Default    |
+| ------- | ------------------- | ------------------- | ---------- |
+| `input` | `CreateEntityInput` | Create Entity input | _required_ |
+
+**Returns:**
+
+| Name   | Type | Description    |
+| ------ | ---- | -------------- |
+| `dict` |      | created entity |
+
 #### `create_statement(create_statement_input, **kwargs)` [¶](broken-reference) <a href="#godel.api.goldenapi.create_statement" id="godel.api.goldenapi.create_statement"></a>
 
 Create statement triple given the statement input combinations of subject entity id, predicate id, object id/value, and citation url
 
 **Parameters:**
 
-| Name    | Type  | Description                   | Default    |
-| ------- | ----- | ----------------------------- | ---------- |
-| `input` | `str` | Create statement record input | _required_ |
+| Name    | Type                   | Description                   | Default    |
+| ------- | ---------------------- | ----------------------------- | ---------- |
+| `input` | `CreateStatementInput` | Create statement record input | _required_ |
 
 **Returns:**
 
