@@ -32,7 +32,7 @@ You can validate the triple by creating a validation for the triple which will s
 ```python
 # Get unvalidated triple
 data = goldapi.unvalidated_triple()["data"]
-unvalidated_triple = data["unvalidatedTriple"]
+unvalidated_triple = data["triple"]
 unvalidated_triple
 ```
 
