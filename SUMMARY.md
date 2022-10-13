@@ -3,6 +3,9 @@
 ## ♾ Protocol
 
 * [Golden Protocol FAQ](README.md)
+* [Guides](protocol/guides/README.md)
+  * [Connecting a Wallet to dapp.golden.xyz](protocol/guides/connecting-a-wallet-to-dapp.golden.xyz.md)
+  * [Triple Validation Guide](protocol/guides/triple-validation-guide.md)
 * [Concepts](protocol/concepts/README.md)
   * [Triple](protocol/concepts/triple.md)
   * [Validation](protocol/concepts/validation.md)
@@ -13,6 +16,7 @@
   * [Reward function development](protocol/how-to-get-involved/reward-function-development.md)
   * [Bulk submission tools](protocol/how-to-get-involved/bulk-submission-tools.md)
   * [IP Ownership](protocol/how-to-get-involved/ip-ownership.md)
+* [Incentivized Testnet Activities](protocol/incentivized-testnet-activities.md)
 
 ## ⚙ API
 
