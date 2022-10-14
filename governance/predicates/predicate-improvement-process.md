@@ -1,6 +1,6 @@
 # Predicate Improvement Process
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 The process for adding, updating, or removing predicates on Golden has three key steps: submission of a proposal, discussion of the proposal, and voting on the proposal.
 
@@ -17,6 +17,8 @@ In the long-term, both the submission & confirmation and the voting steps will b
 **Discussion:** All discussions on Predicate Improvement Proposals will take place in the Golden forum. These discussions should stay focused on holistic consideration for including a predicate in the Golden Knowledge Graph data schema. Once a proposal has reached the voting stage, the forum discussion will be closed and implementation questions should be asked on Discord.
 
 **Vote:** In the near-term, voting will be conducted on [Snapshot](https://snapshot.org), a voting tool built on IPFS. In the long-term voting will be done with smart contracts and weighted by the number of Golden tokens held by voters. Changes to our voting infrastructure and process will be announced on Discord and the Golden forum.
+
+
 
 ## Requirements
 
@@ -56,6 +58,8 @@ If the predicate aims to capture data on urls in specified formats, it is best t
 * Format as URL = “true”
 * URL format: “\<url string>”
   * example: “[https://open.spotify.com/artist/{:id}”](https://open.spotify.com/artist/%7B:id%7D%E2%80%9D) to generate the url for an artist on Spotify given the artist ID.
+
+
 
 ## Discussion topics
 

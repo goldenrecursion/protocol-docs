@@ -64,6 +64,22 @@ Please see [How to get involved](how-to-get-involved/) for more information on s
   1. Extending the utility of an existing function of the python SDK
   2. Detailed guide for creating a superagent using the GraphQL API
 
+### Dataset contribution
+
+We encourage the submission of datasets that can be used by the community to perform submission and verification tasks. Having a thorough set of data sources enables the community to create high-quality superagents. Data sources should contain unique, high-accuracy information in a format that is consumable, such as a API or CSV. Dataset rewards will be given out relative to uniqueness and quantity of data supplied.
+
+Read more about datasets: [data-sources.md](../superagents-and-tools/data-sources.md "mention")
+
+[**Submit a dataset**](https://forms.golden.xyz/add-a-dataset)****
+
+#### Large dataset _(could be used to create 1m+ triples)_
+
+* Up to 250,000 points
+
+#### Small dataset
+
+* Up to 100,000 points
+
 ### Security Bug Bounties
 
 Read about our Security Bug Bounty Program [here](https://goldenhq.notion.site/Security-Bug-Bounty-Program-7a98c9ba7f504afcb442cbd26e956a0c).
