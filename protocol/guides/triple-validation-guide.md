@@ -10,7 +10,7 @@ Users that execute validations that form a consensus above a threshold whereby t
 
 If you haven’t already, you should read the [Golden Protocol FAQ](../../) before continuing this guide and starting to validate. This document explains what a triple is and how the protocol will operate at a high level.​
 
-To become eligible to view the dApp and the validation queue, you must connect a wallet to [dapp.golden.xyz](connecting-a-wallet-to-dapp.golden.xyz.md).
+To become eligible to view the dApp and the validation queue, you must [connect a wallet on Golden.com](https://goldenhq.notion.site/Connecting-a-Wallet-to-Golden-com-8cc2addc89f14e8eab4c6d522fada13c) and [submit at least one triple](https://goldenhq.notion.site/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac). You will be emailed when your account has been approved for dApp access (up to one week).&#x20;
 
 Note: you should always use caution before clicking on a URL and you can skip over URLs that you do not trust.
 
