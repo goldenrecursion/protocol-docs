@@ -32,7 +32,7 @@ You can also connect to your Wallet on [Golden.com](http://golden.com) when you 
 
 ## How to Create a Wallet
 
-1\. We recommend creating a Wallet via MetaMask. Visit the official MetaMask website [here](https://metamask.io/) and click ‘Download Now’ to download the MetaMask Wallet software onto your browser. Next, click ‘install MetaMask’.\
+1\. We recommend creating a Wallet via MetaMask. Visit the official MetaMask website [here](https://metamask.io/) and click ‘Download Now’. Next, click ‘install MetaMask’ to download the MetaMask Wallet software onto your browser.\
 MetaMask is compatible with the following browsers: Google Chrome, Firefox, Brave or Edge.\
 Note: MetaMask is not compatible with Safari. If you are using Safari, we recommend creating a Wallet with [Rainbow](https://rainbow.me/) and connecting to your wallet on Golden using WalletConnect.
 
@@ -50,8 +50,8 @@ Note: MetaMask is not compatible with Safari. If you are using Safari, we recomm
 
 ![](../.gitbook/assets/Screen\_Shot\_2022-04-06\_at\_1.41.45\_PM.png)
 
-5\. Next, reveal your Secret Recovery Phrase. In short, your Secret Recovery Phrase comprises 12 random words. Your Secret Recovery Phrase acts as a backup in case you lose the device where your MetaMask Wallet is downloaded and you need to import it to a new device.\
-Carefully copy down each word in the order they are presented on the screen. The order of the words is crucial as you won’t be able to import your account to a new device if the words are in the wrong order.\
+5\. Next, reveal your Secret Recovery Phrase. In short, your Secret Recovery Phrase consists of 12 random words. Your Secret Recovery Phrase acts as a backup in case you lose the device where your MetaMask Wallet is downloaded and you need to import it to a new device.\
+Carefully copy down each word in the order they are presented on the screen. The order of the words is crucial as you won’t be able to import your account to a new device if the words are in the wrong order. Don't share your seed phrase with anyone as it gives the access to your wallet.\
 MetaMask will prompt you to select and place each phrase in the correct order before you can continue to the next step.
 
 ![](../.gitbook/assets/Screen\_Shot\_2022-04-06\_at\_1.42.21\_PM.png)
