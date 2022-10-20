@@ -40,8 +40,8 @@ Already have experience with GraphQL APIs and just want to jump in? Check out th
 
 Read through our guides to get comfortable with forming GraphQL requests and the API schemas.
 
-{% content-ref url="guides/" %}
-[guides](guides/)
+{% content-ref url="api/guides.md" %}
+[guides.md](api/guides.md)
 {% endcontent-ref %}
 
 ## Python Users

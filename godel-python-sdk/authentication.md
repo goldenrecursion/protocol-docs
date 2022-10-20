@@ -6,7 +6,7 @@ To authenticate your account with the godel python SDK you have two options: you
 
 ## Retrieve JWT Token from GUI
 
-Follow the directions at [authentication.md](../guides/authentication.md "mention") to skip the programmatic authentication and plainly retrieve your JWT token from https://dapp.golden.xyz.
+Follow the directions at [authentication.md](../api/authentication.md "mention") to skip the programmatic authentication and plainly retrieve your JWT token from https://dapp.golden.xyz.
 
 ## Programmatic Authentication
 

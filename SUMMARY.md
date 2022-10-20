@@ -21,8 +21,10 @@
 ## ⚙ API
 
 * [Golden Protocol API Docs](<README (1).md>)
-* [Guides](guides/README.md)
-  * [Authentication](guides/authentication.md)
+* [Intro to API Submission and Verification](api/superagent-introduction.md)
+* [API Submission and Verification FAQ](api/superagent-faq.md)
+* [Authentication](api/authentication.md)
+* [Guides](api/guides.md)
 * [GraphQL API](overview/README.md)
   * [Data Schema](overview/data-schema.md)
   * [GraphQL Examples](api/overview/calls-with-graphql.md)
@@ -37,14 +39,12 @@
   * [Create Entities](godel-python-sdk/create-entities.md)
   * [Godel Reference](api/godel-python-sdk/godel-reference.md)
 
-## 🤖 Superagents and Tools
+## 🤖 Data and Tools
 
-* [Superagent Introduction](superagents-and-tools/superagent-introduction.md)
-* [Superagent FAQ](superagents-and-tools/superagent-faq.md)
-* [Apps and Demos](superagents-and-tools/apps-and-demos/README.md)
-  * [No code](superagents-and-tools/apps-and-demos/no-code.md)
-  * [Low Code](superagents-and-tools/apps-and-demos/low-code.md)
-* [Data Sources](superagents-and-tools/data-sources.md)
+* [Data Sources](data-and-tools/data-sources.md)
+* [Apps and Demos](data-and-tools/apps-and-demos/README.md)
+  * [No code](data-and-tools/apps-and-demos/no-code.md)
+  * [Low Code](data-and-tools/apps-and-demos/low-code.md)
 
 ## ⚖ Governance
 
@@ -53,9 +53,8 @@
   * [Predicate Composition](governance/predicates/predicate-composition.md)
   * [Predicate Naming Convention](governance/predicates/predicate-naming-convention.md)
 
-## ℹ Project Information
+## ℹ General Information
 
-* [Add Wallet to Golden.com](golden-info./add-wallet-to-golden.com.md)
-* [Open Source Repositories](golden-info./open-source.md)
-* [Golden Overview and FAQ](golden-info./golden-overview-and-faq.md)
-* [Terms and Policies](golden-info./terms-and-policies.md)
+* [Add Wallet to Golden.com](general-information/add-wallet-to-golden.com.md)
+* [Open Source Repositories](general-information/open-source.md)
+* [Terms and Policies](general-information/terms-and-policies.md)

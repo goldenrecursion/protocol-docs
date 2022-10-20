@@ -68,7 +68,7 @@ Please see [How to get involved](how-to-get-involved/) for more information on s
 
 We encourage the submission of datasets that can be used by the community to perform submission and verification tasks. Having a thorough set of data sources enables the community to create high-quality superagents. Data sources should contain unique, high-accuracy information in a format that is consumable, such as a API or CSV. Dataset rewards will be given out relative to uniqueness and quantity of data supplied.
 
-Read more about datasets: [data-sources.md](../superagents-and-tools/data-sources.md "mention")
+Read more about datasets: [data-sources.md](../data-and-tools/data-sources.md "mention")
 
 [**Submit a dataset**](https://forms.golden.xyz/add-a-dataset)****
 
