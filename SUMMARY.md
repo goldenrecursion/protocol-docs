@@ -22,9 +22,8 @@
 
 * [Golden Protocol API Docs](<README (1).md>)
 * [Intro to API Submission and Verification](api/superagent-introduction.md)
-* [API Submission and Verification FAQ](api/superagent-faq.md)
 * [Authentication](api/authentication.md)
-* [Guides](api/guides.md)
+* [API Submission and Verification FAQ](api/superagent-faq.md)
 * [GraphQL API](overview/README.md)
   * [Data Schema](overview/data-schema.md)
   * [GraphQL Examples](api/overview/calls-with-graphql.md)

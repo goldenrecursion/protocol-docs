@@ -4,15 +4,13 @@ description: Learn how to use tools to quickly add and validate data to the Gold
 
 # Intro to API Submission and Verification
 
-###
-
 ### Getting started: Typical programmatic tasks
 
 To get started you should first decide on what task you are best suited to accomplish. Currently, we have entity creation, triple submission, and triple validation tasks that can be performed through the protocol API or python SDK. To get an idea of the steps involved in these processes a high-level outline is included below.
 
 We encourage all users who are interested in being superagents to join the [#developers channel in our Discord](https://discord.gg/H7pmZYTjkX).
 
-#### Entity Creation
+### Entity Creation
 
 To create a new entity using the protocol API your application will need to:
 
@@ -26,7 +24,7 @@ You can read more in-depth at:
 [create-entities.md](../godel-python-sdk/create-entities.md)
 {% endcontent-ref %}
 
-#### Triple Submission
+### Triple Submission
 
 To submit a triple and citation using the protocol API your application will need to:
 
@@ -43,7 +41,7 @@ You can read more in-depth at:
 [create-triples.md](../godel-python-sdk/create-triples.md)
 {% endcontent-ref %}
 
-#### Validation
+### Validation
 
 To perform a validation vote using the protocol API your application will need to:
 
