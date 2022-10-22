@@ -41,9 +41,7 @@
 ## 🤖 Data and Tools
 
 * [Data Sources](data-and-tools/data-sources.md)
-* [Apps and Demos](data-and-tools/apps-and-demos/README.md)
-  * [No code](data-and-tools/apps-and-demos/no-code.md)
-  * [Low Code](data-and-tools/apps-and-demos/low-code.md)
+* [Apps and Demos](data-and-tools/apps-and-demos.md)
 
 ## ⚖ Governance
 
