@@ -37,6 +37,7 @@
   * [Create Triples](godel-python-sdk/create-triples.md)
   * [Create Entities](godel-python-sdk/create-entities.md)
   * [Godel Reference](api/godel-python-sdk/godel-reference.md)
+* [Realtime Events API](api/realtime-events-api.md)
 
 ## 🤖 Data and Tools
 
