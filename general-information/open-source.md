@@ -17,3 +17,7 @@ Golden supports the open source community and its developers by sharing and cont
 ## Protocol Documentation
 
 {% embed url="https://github.com/goldenrecursion/protocol-docs" %}
+
+## Programmatic user tools
+
+{% embed url="https://github.com/goldenrecursion/super-agent-tools" %}
