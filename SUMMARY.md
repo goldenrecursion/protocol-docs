@@ -5,7 +5,7 @@
 * [Golden Protocol FAQ](README.md)
 * [Guides](protocol/guides/README.md)
   * [Connecting a Wallet to dapp.golden.xyz](protocol/guides/connecting-a-wallet-to-dapp.golden.xyz.md)
-  * [Triple Validation Guide](protocol/guides/triple-validation-guide.md)
+  * [Triple Verification Guide](protocol/guides/triple-verification-guide.md)
 * [Concepts](protocol/concepts/README.md)
   * [Triple](protocol/concepts/triple.md)
   * [Validation](protocol/concepts/validation.md)

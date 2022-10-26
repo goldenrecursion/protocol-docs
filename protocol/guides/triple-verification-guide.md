@@ -1,42 +1,38 @@
 ---
-description: Learn how to perform validation tasks on the Golden protocol.
+description: Learn how to perform verification tasks on the Golden protocol.
 ---
 
-# Triple Validation Guide
+# Triple Verification Guide
 
-[Triples](../concepts/triple.md) that are submitted into Golden need to be checked by others to form a consensus on whether a ‘fact’ triple should be included in the knowledge graph or not. The dApp triple [validation](../concepts/validation.md) page allows validators to verify that the triple is true by voting ‘accept’, ‘reject’, or to skip over the vote. In the validation queue, your task is to decide if the URL shown is the entity’s primary, official URL for this predicate. ​
+[Triples](../concepts/triple.md) that are submitted to Golden need to be checked by others to form a consensus on whether a ‘fact’ triple should be included in the knowledge graph or not. The dApp triple [verification](../concepts/validation.md) page allows verifiers to confirm that the triple is true by voting ‘accept’, ‘reject’, or to skip over the vote. In the verification queue, your task is to decide if the URL shown is the entity’s primary or official URL for this predicate. ​Please use caution before clicking on a URL. You can skip over URLs that you do not trust.
 
-Users that execute validations that form a consensus above a threshold whereby the triple becomes accepted by the protocol, will receive a future reward which will be airdropped upon the token launch. ​
+Users that execute verifications that form a consensus above a threshold whereby the triple becomes accepted by the protocol, will receive a future reward which will be airdropped upon the token launch. ​(If you haven’t already, you should read the [Golden Protocol FAQ](../../) before continuing this guide and starting to verify. This document explains what a triple is and how the protocol will operate at a high level.​)
 
-If you haven’t already, you should read the [Golden Protocol FAQ](../../) before continuing this guide and starting to validate. This document explains what a triple is and how the protocol will operate at a high level.​
-
-To become eligible to view the dApp and the validation queue, you must [connect a wallet on Golden.com](https://goldenhq.notion.site/Connecting-a-Wallet-to-Golden-com-8cc2addc89f14e8eab4c6d522fada13c) and [submit at least one triple](https://goldenhq.notion.site/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac). You will be emailed when your account has been approved for dApp access (up to one week).&#x20;
-
-Note: you should always use caution before clicking on a URL and you can skip over URLs that you do not trust.
+To become eligible to view the dApp and the verification queue, you must [connect a wallet on Golden.com](https://goldenhq.notion.site/Connecting-a-Wallet-to-Golden-com-8cc2addc89f14e8eab4c6d522fada13c) and [submit at least one triple](https://goldenhq.notion.site/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac). You will be emailed when your account has been approved for dApp access. Please note, this process may take up to one week.&#x20;
 
 **Directions**
 
-The validation queue displays one unvalidated triple at a time. Your task is to look at the relationship and judge if the information displayed is true or false. If the triple is true, click the ‘Accept’ button, if false click ‘Reject’. If you are not sure you may click ‘Skip’. You will be penalized for selecting the wrong answer (explained below) and rewarded for being correct.​
+The verification queue displays one unverified triple at a time. Your task is to look at the relationship and judge if the information displayed is true or false. If the triple is true, click the ‘Accept’ button. If the triple is false, click the ‘Reject’ button. If you are not sure, you may click the ‘Skip’ button. You will be penalized for selecting the wrong answer (explained below) and rewarded for being correct.​
 
 You are encouraged to use any resources you have available in order to verify triples with confidence. The primary evidence you have to go on is the information in the URL or citation presented.​
 
-<figure><img src="../../.gitbook/assets/validation_dapp_gitbook.gif" alt=""><figcaption><p>Example of validation process</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_dapp_gitbook.gif" alt=""><figcaption><p>Example of the "verification" process</p></figcaption></figure>
 
 **Penalties and rewards**
 
-Golden has prestaked testnet points to wallets with a certain number of testnet points to get started.​
+Golden has prestaked testnet points to wallets with a certain number of testnet points to get started.​ These testnet points will be used to calculate future eligible airdrops.
 
-Validators submitting incorrect validations (those that do not agree with the consensus validation vote on a triple) will be penalized by losing a portion of their testnet points (testnet points will be used to calculate future eligible airdrops). In extreme cases, validators may lose all of their testnet points and/or their access to dApp.​
+Correct verifications, those that agree with the consensus verification vote on the triple, will be rewarded with testnet points.​
 
-Correct validations (those that agree with the consensus validation vote on the triple) will be rewarded with testnet points.​
+Verifiers submitting incorrect verifications, those that do not agree with the consensus verification vote on a triple, will be penalized by losing a portion of their testnet points. In extreme cases, verifiers may lose all of their testnet points and/or their access to dApp.​
 
 **Skipping a task**
 
-Validators can ‘skip’ tasks that they find ambiguous or would prefer to not validate. Skips are limited but increase with more accept or reject actions. ​
+Verifiers can ‘skip’ tasks that they find ambiguous or would prefer to not verify. Initially, your "Skips" are limited but increase with more accept or reject actions you take. ​
 
 **Non-English content**
 
-URLs that point to sites with majority non-English content should be rejected for now. Social platform URLs with just an entity name/description not based in the latin alphabet may still be accepted if the entity can be clearly associated with its latin-based name represented in the protocol. Users that have added majority non-English will not be penalized, but they will not have their triples accepted in the near future.​
+URLs that point to sites with majority non-English content should be rejected for now. Social platform URLs with just an entity name/description not based on the Latin alphabet may still be accepted if the entity can be clearly associated with its Latin-based name represented in the protocol. Users that have added majority non-English will not be penalized, but they will not have their triples accepted in the near future.​
 
 Later, we will revote on these URL triples with majority non-English content with proper support in the graph to handle it.
 
@@ -44,9 +40,9 @@ Later, we will revote on these URL triples with majority non-English content wit
 
 <figure><img src="https://jmp.sh/pgt6z9Y+/Screen+Shot+2022-06-22+at+11.17.47+PM.png" alt=""><figcaption></figcaption></figure>
 
-If you come across a broken URL that doesn’t load (i.e. a website URL that results in a 404 error, or a broken facebook URL like in the example here) you should reject the URL.
+If you come across a broken URL that doesn’t load such as a website URL that results in a 404 error, or a broken Facebook URL, you should reject the URL.
 
-For URL redirect cases, if the redirect gets to the canonical URL, this is currently sufficient to accept:
+For URL redirect cases, if the redirect gets to the canonical URL, this is currently sufficient to accept. For example:
 
 * If ‘[Tim Cook](https://golden.com/wiki/Tim\_Cook-N9YN83)’ → ‘website’ → ‘[timcook.com](http://timcook.com/)’ is submitted and [timcook.com](http://timcook.com/) redirects to [www.apple.com/leadership/tim-cook/](https://www.apple.com/leadership/tim-cook/), the original triple should be accepted​
 * If ‘[Tim Cook](https://golden.com/wiki/Tim\_Cook-N9YN83)’ → ‘website’ → ‘[timcook.com](http://timcook.com/)’ is submitted and [timcook.com](http://timcook.com/) redirects to [markzuckerberg.com](https://markzuckerberg.com/), the triple should be rejected as the redirected URL is not the direct website for [Tim Cook​](https://golden.com/wiki/Tim\_Cook-N9YN83)

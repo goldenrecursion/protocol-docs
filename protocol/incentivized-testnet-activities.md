@@ -30,7 +30,7 @@ Testnet rewards may be earned by verifying triples that have been proposed for a
 
 **Validation vote: initially 1 point\*** for each validation vote that goes on to agree with the decision of the acceptance or rejection. ​
 
-Read the [Triple Validation Guide](guides/triple-validation-guide.md) to get started.
+Read the [Triple Validation Guide](guides/triple-verification-guide.md) to get started.
 
 \*The amount rewarded for triple submission, validation, and entity creation will change as we calibrate and load balance the system to the benefit of all stakeholders of the protocol. **We expect the number of points for triples submission, validation and entity creation to lower over time.** \[Rewards will become dynamic based on a reward function to be defined later].​
 
