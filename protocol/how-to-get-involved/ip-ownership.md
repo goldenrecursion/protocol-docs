@@ -8,7 +8,7 @@ description: >-
 
 ### What role does IP ownership have in the protocol?
 
-IP ownership could be tied to NFT ownership to create further long-term  incentives to contribute data. The protocol could charge commercial users for usage of data in the protocol, and still allow free usage of the data for non-commerical users. We are curious to open up a conversation with the community on different ways that IP can be leveraged, shared, assigned, or otherwise used in the protocol.
+Intellectual Property ("IP") ownership could be tied to NFT ownership to create further long-term incentives to contribute data. The protocol could charge commercial users for the usage of data in the protocol, and still allow free usage of the data for non-commercial users. We are curious to open up a conversation with the community on different ways that IP can be leveraged, shared, assigned, or otherwise used in the protocol.
 
 ### Unsolved questions
 
