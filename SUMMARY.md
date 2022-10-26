@@ -8,7 +8,7 @@
   * [Triple Verification Guide](protocol/guides/triple-verification-guide.md)
 * [Concepts](protocol/concepts/README.md)
   * [Triple](protocol/concepts/triple.md)
-  * [Validation](protocol/concepts/validation.md)
+  * [Verification](protocol/concepts/validation.md)
   * [Minimum Disambiguation Triple Requirements (MDT)](protocol/concepts/minimum-disambiguation-triple-requirements-mdt.md)
   * [Ground Truth Triples (GTT)](protocol/concepts/ground-truth-triples-gtt.md)
   * [Citations](protocol/concepts/citations.md)
