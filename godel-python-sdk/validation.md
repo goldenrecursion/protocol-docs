@@ -1,36 +1,32 @@
-# Validation
+# Verification
 
-Here is a short guide to validating triples on the Golden protocol. Before casting votes, be sure to read the [Triple Validation Guide](https://www.notion.so/goldenhq/Triple-Validation-Guide-84ec0a78cfe941b9876007cccca61b31)
+Here is a short guide to verifying triples on the Golden protocol. Before casting votes, be sure to read the [triple-verification-guide.md](../protocol/guides/triple-verification-guide.md "mention").
 
-## Prerequisite
+## Prerequisites
 
-[Godel Authentication](https://docs.golden.xyz/godel-python-sdk/authentication)
+* **Godel** [authentication.md](authentication.md "mention")
 
-### 1. Connect to Golden Web3 API
+### 1. Connect to Golden Protocol API
 
 Let's connect the python wrapper to the Golden GraphQL API.
 
-Make sure you ran through the prerequisites for this guide and have learned to authenticate and retrieve your JWT token in Godel.
+Make sure you ran through the prerequisites for this guide and have learned to authenticate and retrieve your JWT token.&#x20;
 
 ```python
 from godel import GoldenAPI
 
 JWT_TOKEN = #YOUR_JWT_TOKEN_HERE
-DAPP_URL = "https://dapp.golden.xyz/graphql"
-goldapi = GoldenAPI(url=DAPP_URL)
+API_URL = "https://dapp.golden.xyz/graphql"
+goldapi = GoldenAPI(url=API_URL)
 goldapi.set_jwt_token(jwt_token=JWT_TOKEN)
 ```
 
-### 2. Retrieve unvalidated triple
+### 2. Retrieve unverified triple
 
-There are a couple options for retrieving an unvalidated triple.
-
-The first way we'd recommend is to retrieve a validation task from Golden's API. We'll have an endpoint that provides a queue of validation tasks.
-
-You can validate the triple by creating a validation for the triple which will submit your validation (accept, reject) to the protocol.
+To retrieve a verification task from the verification queue use the `unvalidated_triple()`call. This will return a single unverified triple that has been assigned to your wallet. &#x20;
 
 ```python
-# Get unvalidated triple
+# Get an unvalidated triple
 data = goldapi.unvalidated_triple()["data"]
 unvalidated_triple = data["triple"]
 unvalidated_triple
@@ -47,7 +43,9 @@ unvalidated_triple
  'predicateId': 'c090be24-6c35-45d8-8a81-32e57a3d48dd'}
 ```
 
-### 4. Create validation
+### 4. Cast verification vote
+
+You can verify the triple by creating a validation mutation with your selected response: `ACCEPTED`, `REJECTED`, or `SKIPPED`. You can inspect the validation types using the protocol schema.
 
 ```python
 from godel.schema import ValidationType
@@ -75,7 +73,7 @@ triple_id
 '2a2b80d5-b841-4723-b949-210a11500db3'
 ```
 
-### WARNING: Running the code below may charge gas fees and stake testnet points with your wallet. You may lose testnet points by submitting incorrect data.
+#### WARNING: Running the code below may charge gas fees and stake testnet points with your wallet. You may lose testnet points by submitting incorrect data.
 
 ```python
 # Create Validation

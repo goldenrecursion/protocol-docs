@@ -12,7 +12,7 @@ These sources may be useful for getting detailed data about their industry or br
 
 Note: many of these sources offer free personal access and/or basic API use, though some do require a paid plan for advanced features.&#x20;
 
-_<mark style="color:yellow;">Note</mark>: information submitted to the Golden Protocol needs to come from a non-proprietary source. Please ensure you have the proper license and ability to publicly cite materials before submitting. If material is private it may still be useful for validation or disambiguation efforts. We include all sources here for convenience._
+_<mark style="color:yellow;">Note</mark>: information submitted to the Golden Protocol needs to come from a non-proprietary source. Please ensure you have the proper license and ability to publicly cite materials before submitting. If material is private it may still be useful for verification or disambiguation efforts. We include all sources here for convenience._
 
 ### Submitting a dataset
 

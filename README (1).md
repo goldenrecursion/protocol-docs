@@ -10,23 +10,23 @@ description: >-
 
 ## GraphQL API
 
-Golden's GraphQL API offers developers powerful and flexible queries to retrieve, submit, and validate the data in the Golden protocol. For more information on Golden and the protocol please read the [Golden Protocol FAQ](https://www.notion.so/goldenhq/Golden-Protocol-FAQ-78ae2357b9af44aeaa655cb1b1966ee4) guide.
+Golden's GraphQL API offers developers powerful and flexible queries to retrieve, submit, and verify the data in the Golden protocol. For more information on Golden and the protocol please read the [Golden Protocol FAQ](https://www.notion.so/goldenhq/Golden-Protocol-FAQ-78ae2357b9af44aeaa655cb1b1966ee4) guide.
 
 {% hint style="info" %}
 The Golden protocol is currently live on the Goerli testnet.
 
-Golden has prestaked testnet points to wallets with submitted triples on Golden.com to get started. To become eligible to submit or validate triples with the API or dApp, you must connect a wallet on Golden.com and submit at least one triple.
+Golden has prestaked testnet points to wallets with submitted triples on Golden.com to get started. To become eligible to submit or verify triples with the API or dApp, you must connect a wallet on Golden.com and submit at least one triple.
 
-Validators submitting incorrect validations (those that do not match the consensus validation vote on a triple) will be penalized by losing a portion of their testnet points (testnet points will be used to calculate future eligible airdrops). In extreme cases, validators may lose all of their testnet points and/or their access to dApp.
+Verifiers submitting incorrect verifications (those that do not match the consensus verification vote on a triple) will be penalized by losing a portion of their testnet points (testnet points will be used to calculate future eligible airdrops). In extreme cases, verifiers may lose all of their testnet points and/or their access to dApp.
 
-Correct validations (those that agree with the consensus validation vote on the triple) will be rewarded with testnet points.
+Correct verifications (those that agree with the consensus verification vote on the triple) will be rewarded with testnet points.
 
 Attribution and eligibility for testnet points on triple submissions will be assigned by the earliest timestamped transaction.
 
-**Please read the** [**Triple Validation Guide**](https://www.notion.so/goldenhq/Triple-Validation-Guide-84ec0a78cfe941b9876007cccca61b31) **before submitting or validating triples.**
+**Please read the** [triple-verification-guide.md](protocol/guides/triple-verification-guide.md "mention") **before submitting or verifying triples.**
 {% endhint %}
 
-Developers using the Golden API to create agents that submit and validate triples are encouraged to join the [Golden Discord group](https://discord.gg/golden-protocol) to share ideas, feedback, and requests\*\*.\*\*
+Developers using the Golden API to create agents that submit and verify triples are encouraged to join the [Golden Discord group](https://discord.gg/golden-protocol) to share ideas, feedback, and requests.
 
 ## Full API Reference
 

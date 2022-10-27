@@ -208,13 +208,13 @@ Calling this method will automatically set self.jwt\_token which will be used in
 
 #### `get_triple_for_validation(**kwargs)` [¶](broken-reference) <a href="#godel.api.goldenapi.get_triple_for_validation" id="godel.api.goldenapi.get_triple_for_validation"></a>
 
-Get triple for validation
+Get triple for verification
 
 **Returns:**
 
-| Name   | Type   | Description                     |
-| ------ | ------ | ------------------------------- |
-| `dict` | `dict` | data contain triple to validate |
+| Name   | Type   | Description                   |
+| ------ | ------ | ----------------------------- |
+| `dict` | `dict` | data contain triple to verify |
 
 #### `predicate_by_id(id)` [¶](broken-reference) <a href="#godel.api.goldenapi.predicate_by_id" id="godel.api.goldenapi.predicate_by_id"></a>
 

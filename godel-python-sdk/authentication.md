@@ -4,17 +4,17 @@
 
 To authenticate your account with the godel python SDK you have two options: you may retrieve your token from your profile page in the dApp or you may programmatically generate a key using your wallet address and secret keys.
 
-## Retrieve JWT Token from GUI
+## Retrieve JWT Token from dApp UI
 
-Follow the directions at [authentication.md](../api/authentication.md "mention") to skip the programmatic authentication and plainly retrieve your JWT token from https://dapp.golden.xyz.
+**Easiest option:** Follow the directions at [authentication.md](../api/authentication.md "mention") to skip the programmatic authentication and plainly retrieve your JWT token from https://dapp.golden.xyz.
 
 ## Programmatic Authentication
 
-### Prerequisite
+### Prerequisites
 
 [QuickStart](https://docs.golden.xyz/godel-python-sdk/quickstart)
 
-This guide requires installation of [Web3.py](https://github.com/ethereum/web3.py).
+This guide requires the installation of [Web3.py](https://github.com/ethereum/web3.py).
 
 You can do this with `pip install godel[web3]` and comes pre-installed if using the godel docker image.
 
@@ -83,7 +83,7 @@ goldapi.get_authentication_token(
 
 ### 3. Test with Graphql Calls
 
-Once authenticated, you'll now have permission to search, disambiguate, validate, and submit data to the Golden Protocol.
+Once authenticated, you'll now have permission to search, disambiguate, verify, and submit data to the Golden Protocol.
 
 ```python
 goldapi.entity_search("golden")

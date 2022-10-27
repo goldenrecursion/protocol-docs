@@ -69,5 +69,5 @@ There are a number of considerations that may or may not be relevant to each Pre
 * What is the estimated frequency of new values or changes for each entity?
 * What (if any) other schemas does this predicate map to? ([Schema.org](http://schema.org), Wikidata, etc.)
 * Are there any PII (Personally Identifiable Information) concerns with this field?
-* Are there any concerns about the ability for an average user to validate data in this field?
+* Are there any concerns about the ability for an average user to verify data in this field?
 * What is the likelihood that data in this field will become stale? How long will the data in this field be relevant?

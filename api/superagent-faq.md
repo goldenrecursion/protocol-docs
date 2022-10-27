@@ -6,11 +6,11 @@ description: Frequently asked questions by Golden Protocol API users.
 
 ### Are tasks performed through the API rewarded the same as tasks done through the dApp or Golden.com UI?
 
-Currently yes, the method of content addition or validation is not a determining factor for earning testnet points. This may change in the future as the protocol develops.
+Currently yes, the method of content addition or verification is not a determining factor for earning testnet points. This may change in the future as the protocol develops.
 
-### Is there a way to target specific predicate types to validate?
+### Is there a way to target specific predicate types to verify?
 
-No. We understand that many API users will create processes that work only on specific predicate types. Currently, a random unvalidated triple is assigned to each wallet during the validation process, with the choice to skip, accept, or reject. This process will be improved as testnet development continues.
+No. We understand that many API users will create processes that work only on specific predicate types. Currently, a random unverified triple is assigned to each wallet during the verification process, with the choice to skip, accept, or reject. This process will be improved as testnet development continues.
 
 ### Is there a way for non-technical users to become programmatic agents?
 
