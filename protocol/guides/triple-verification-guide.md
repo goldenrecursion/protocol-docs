@@ -4,7 +4,7 @@ description: Learn how to perform verification tasks on the Golden protocol.
 
 # Triple Verification Guide
 
-[Triples](../concepts/triple.md) that are submitted to Golden need to be checked by others to form a consensus on whether a ‘fact’ triple should be included in the knowledge graph or not. The dApp triple [verification](../concepts/validation.md) page allows verifiers to confirm that the triple is true by voting ‘accept’, ‘reject’, or to skip over the vote. In the verification queue, your task is to decide if the URL shown is the entity’s primary or official URL for this predicate. ​Please use caution before clicking on a URL. You can skip over URLs that you do not trust.
+[Triples](../concepts/triple.md) that are submitted to Golden need to be checked by others to form a consensus on whether a ‘fact’ triple should be included in the knowledge graph or not. The dApp triple [verification](../concepts/verification.md) page allows verifiers to confirm that the triple is true by voting ‘accept’, ‘reject’, or to skip over the vote. In the verification queue, your task is to decide if the URL shown is the entity’s primary or official URL for this predicate. ​Please use caution before clicking on a URL. You can skip over URLs that you do not trust.
 
 Users that execute verifications that form a consensus above a threshold whereby the triple becomes accepted by the protocol, will receive a future reward which will be airdropped upon the token launch. ​(If you haven’t already, you should read the [Golden Protocol FAQ](../../) before continuing this guide and starting to verify. This document explains what a triple is and how the protocol will operate at a high level.​)
 
