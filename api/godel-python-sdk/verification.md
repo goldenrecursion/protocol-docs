@@ -1,10 +1,10 @@
 # Verification
 
-Here is a short guide to verifying triples on the Golden protocol. Before casting votes, be sure to read the [triple-verification-guide.md](../protocol/guides/triple-verification-guide.md "mention").
+Here is a short guide to verifying triples on the Golden protocol. Before casting votes, be sure to read the [triple-verification-guide.md](../../protocol/guides/triple-verification-guide.md "mention").
 
 ## Prerequisites
 
-* **Godel** [authentication.md](authentication.md "mention")
+* **Godel** [authentication.md](../../godel-python-sdk/authentication.md "mention")
 
 ### 1. Connect to Golden Protocol API
 

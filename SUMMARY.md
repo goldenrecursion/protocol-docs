@@ -33,7 +33,7 @@
 * [Python SDK (Godel)](godel-python-sdk/README.md)
   * [Quickstart](godel-python-sdk/quickstart.md)
   * [Authentication](godel-python-sdk/authentication.md)
-  * [Verification](godel-python-sdk/validation.md)
+  * [Verification](api/godel-python-sdk/verification.md)
   * [Create Triples](godel-python-sdk/create-triples.md)
   * [Create Entities](godel-python-sdk/create-entities.md)
   * [Godel Reference](api/godel-python-sdk/godel-reference.md)

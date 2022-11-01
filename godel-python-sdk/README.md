@@ -20,8 +20,8 @@ The following pages will provide additional guides and walkthroughs for ingestin
 [create-triples.md](create-triples.md)
 {% endcontent-ref %}
 
-{% content-ref url="validation.md" %}
-[validation.md](validation.md)
+{% content-ref url="../api/godel-python-sdk/verification.md" %}
+[verification.md](../api/godel-python-sdk/verification.md)
 {% endcontent-ref %}
 
 ## Overview
@@ -38,7 +38,7 @@ Run `docker-compose build` and then `docker-compose up`.
 
 Go to `localhost:8888` to run our tutorials in jupyter lab.
 
-Images are built with data processing and compute in mind to aid users in their validation and ingest queries.
+Images are built with data processing and compute in mind to aid users in their verification and ingest queries.
 
 ## Contact
 

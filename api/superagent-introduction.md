@@ -55,6 +55,6 @@ To perform a verification vote using the protocol API your application will need
 
 You can read more in-depth at:
 
-{% content-ref url="../godel-python-sdk/validation.md" %}
-[validation.md](../godel-python-sdk/validation.md)
+{% content-ref url="godel-python-sdk/verification.md" %}
+[verification.md](godel-python-sdk/verification.md)
 {% endcontent-ref %}
