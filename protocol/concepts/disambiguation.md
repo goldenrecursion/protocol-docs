@@ -15,6 +15,6 @@ A good disambiguation strategy is important for both data submission and retriev
 * Prevents the creation of duplicates. If we can disambiguate effectively, it's harder for users to resubmit data that already exists onto the protocol, so there's less waste in the validation process, and rewards for contributing to the Protocol have less dillution.
 * Makes search efficient, which increases the usefulness of the graph for data retrieval.
 
-Since this is a core problem of building a knowledge graph, there's a new [API query](https://github.com/goldenrecursion/protocol-docs/blob/4c8c53564a9c735ce4d55bf2ea889d2946675339/protocol/concepts/dapp.golden.xyz/graphiql), `disambiguateTriples()`, which can be used by any user for data retrieval, or as part of their triple submission flow.
+Since this is a core problem of building a knowledge graph, there's a new [API query](https://dapp.golden.xyz/graphiql), `disambiguateTriples()`, which can be used by any user for data retrieval, or as part of their triple submission flow.
 
 To help onboarding users, there's a detailed tutorial on how you can use this API during the triple submission process on the [API section](../../api/disambiguation-service.md).
