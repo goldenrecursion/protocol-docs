@@ -1,5 +1,8 @@
 ---
-description: Step-by-step tutorial on disambiguation of triples using the GraphQL API
+description: >-
+  Golden protocol service to disambiguate and deduplicate triple submissions.
+  Includes step-by-step tutorial on disambiguation of triples using the GraphQL
+  API.
 ---
 
 # Disambiguation Service
