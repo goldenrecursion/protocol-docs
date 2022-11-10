@@ -26,6 +26,7 @@
 * [Authentication](api/authentication.md)
 * [Disambiguation Service](api/disambiguation-service.md)
 * [API Submission and Verification FAQ](api/superagent-faq.md)
+* [Testing Sandbox](api/testing-sandbox.md)
 * [GraphQL API](overview/README.md)
   * [Data Schema](overview/data-schema.md)
   * [GraphQL Examples](api/overview/calls-with-graphql.md)
