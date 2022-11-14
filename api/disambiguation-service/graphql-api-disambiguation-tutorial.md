@@ -1,21 +1,10 @@
 ---
-description: >-
-  Golden protocol service to disambiguate and deduplicate triple submissions.
-  Includes step-by-step tutorial on disambiguation of triples using the GraphQL
-  API.
+description: Learn how to use the disambiguation service through the Golden GraphQL API.
 ---
 
-# Disambiguation Service
+# GraphQL API Disambiguation Tutorial
 
 ## Overview
-
-The entity disambiguation service offers a method of querying the knowledge graph in order to identify specific entities based on input triple(s). This is an important service for those looking to accurately link new triple submissions to existing entities or prevent duplicate new entities from being created. This service is available through the GraphQL API and the Python SDK.&#x20;
-
-## GraphQL API reference and technical information
-
-The full API reference is available through the [GraphQL API visual interface](https://dapp.golden.xyz/graphiql?query=query%20DisambiguationQuery%20\{%20disambiguateTriples\(%20payload:%20\{%20triples:%20\[%20\{%20predicate:%20%22Name%22,%20object:%20%22Apple%22%20}%20\{%20predicate:%20%22Website%22,%20object:%20%22http://apple.com%22%20}%20\{%20predicate:%20%22Number%20of%20Employees%22,%20object:%20%22154000%22%20}%20]%20}%20\)%20\{%20entities%20\{%20id%20name%20date\_created%20distance%20reputation%20}%20}%20}) (GraphiQL). To view these docs click 'Docs' in the upper right corner of GraphiQL and search for `disambiguateTriples`. A JWT authentication token is not required to run this service. &#x20;
-
-## GraphQL API Tutorial
 
 This is a short tutorial on how to use the disambiguation [GraphQL API](https://dapp.golden.xyz/graphiql) during triple submission. We will cover the basics, so we can successfully determine the subject id of the triples we want to submit.
 
