@@ -34,8 +34,9 @@ PRIVATE_KEY = #"YOUR_WALLET_SECRET_HERE"
 ```python
 from godel import GoldenAPI
 
-DAPP_URL = "https://dapp.golden.xyz/graphql"
-goldapi = GoldenAPI(url=DAPP_URL)
+API_URL = "https://dapp.golden.xyz/graphql"
+SANDBOX_URL = "https://sandbox.dapp.golden.xyz/graphql" # Use the sandbox API to test your submissions
+goldapi = GoldenAPI(url=API_URL)
 ```
 
 ### 2. Authenticate and set JWT

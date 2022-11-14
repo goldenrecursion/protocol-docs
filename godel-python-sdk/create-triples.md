@@ -22,12 +22,13 @@ Make sure you ran through the prerequisites for this guide and have learned to a
 from godel import GoldenAPI
 
 JWT_TOKEN = #YOUR_JWT_TOKEN_HERE
-DAPP_URL = "https://dapp.golden.xyz/graphql"
-goldapi = GoldenAPI(url=DAPP_URL)
+API_URL = "https://dapp.golden.xyz/graphql"
+SANDBOX_URL = "https://sandbox.dapp.golden.xyz/graphql" # Use the sandbox API to test your submissions
+goldapi = GoldenAPI(url=API_URL)
 goldapi.set_jwt_token(jwt_token=JWT_TOKEN)
 ```
 
-Test that you can hit the API with `entity_search()`, and we'll save the results so we can use the resulting entity as our subject entity for this guide. We are using `pandas` here to make working with data easier, but it is not a requirement. &#x20;
+Test that you can hit the API with `entity_search()`, and we'll save the results so we can use the resulting entity as our subject entity for this guide. We are using `pandas` here to make working with data easier, but it is not a requirement.
 
 ```python
 import pandas as pd

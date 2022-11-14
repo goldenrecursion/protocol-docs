@@ -22,8 +22,9 @@ Make sure you ran through the prerequisites for this guide and have learned to a
 from godel import GoldenAPI
 
 JWT_TOKEN = #YOUR_JWT_TOKEN_HERE
-DAPP_URL = "https://dapp.golden.xyz/graphql"
-goldapi = GoldenAPI(url=DAPP_URL)
+API_URL = "https://dapp.golden.xyz/graphql"
+SANDBOX_URL = "https://sandbox.dapp.golden.xyz/graphql" # Use the sandbox API to test your submissions
+goldapi = GoldenAPI(url=API_URL)
 goldapi.set_jwt_token(jwt_token=JWT_TOKEN)
 ```
 
