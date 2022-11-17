@@ -6,6 +6,7 @@
 * [Guides](protocol/guides/README.md)
   * [Connecting a Wallet to dapp.golden.xyz](protocol/guides/connecting-a-wallet-to-dapp.golden.xyz.md)
   * [Triple Verification Guide](protocol/guides/triple-verification-guide.md)
+  * [Flagging Triples](protocol/guides/flagging-triples.md)
 * [Concepts](protocol/concepts/README.md)
   * [Triple](protocol/concepts/triple.md)
   * [Verification](protocol/concepts/verification.md)

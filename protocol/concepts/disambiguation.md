@@ -17,4 +17,4 @@ A good disambiguation strategy is important for both data submission and retriev
 
 Since this is a core problem of building a knowledge graph, there's a new [API query](https://dapp.golden.xyz/graphiql), `disambiguateTriples()`, which can be used by any user for data retrieval, or as part of their triple submission flow.
 
-To help onboarding users, there's a detailed tutorial on how you can use this API during the triple submission process on the [API section](../../api/disambiguation-service/).
+To help onboarding users, there's a detailed tutorial on how you can use this API during the triple submission process on the [API section](../../api/disambiguation-service.md).
