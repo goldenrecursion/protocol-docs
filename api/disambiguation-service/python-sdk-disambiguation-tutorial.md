@@ -4,8 +4,6 @@ description: Learn to use the disambiguation service through the Golden python S
 
 # Python SDK Disambiguation Tutorial
 
-The notebook for this tutorial is located in the `godel` repository [here](https://github.com/goldenrecursion/godel/blob/master/tutorials/Disambiguate%20Triples.ipynb).
-
 ## Overview of`disambiguate_triples()` tutorial <a href="#godel-disambiguate_triples-api-tutorial" id="godel-disambiguate_triples-api-tutorial"></a>
 
 This is a short guide to triple disambiguation on the Golden protocol. Disambiguation is a core step in the data submission process, as any triple needs to point to an existing entity reference in the protocol. Good disambiguation prevents the creation of entity and triple duplicates.

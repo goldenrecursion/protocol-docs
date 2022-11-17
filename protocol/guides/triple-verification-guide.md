@@ -16,7 +16,7 @@ The verification queue displays one unverified triple at a time. Your task is to
 
 You are encouraged to use any resources you have available in order to verify triples with confidence. The primary evidence you have to go on is the information in the URL or citation presented.​
 
-<figure><img src="../../.gitbook/assets/validation_dapp_gitbook.gif" alt=""><figcaption><p>Example of the "verification" process</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/validation_dapp (2).gif" alt=""><figcaption><p>Example of the "verification" process</p></figcaption></figure>
 
 **Penalties and rewards**
 

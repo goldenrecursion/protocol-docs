@@ -88,6 +88,10 @@ No. We are focused on triples that go on to be verified along with citations for
 
 [Golden.com](http://golden.com) is the current place to register your user account, connect your wallet and submit triple data (with citations). The [dApp](https://dapp.golden.xyz/) is a minimal dApp on testnet with a focused UI around verification.
 
+### Initial testnet point rewards will not be included in a future airdrop
+
+The initial testnet point reward that is allocated when users join the dApp is used as an initial staking mechanic by the protocol to enable triple submission and verification. This initial testnet point reward will NOT be considered in a future mainnet airdrop reward. Testnet points are designed to reward users for taking positive actions in the protocol.
+
 ### How can I find my position on the leaderboard?
 
 You may be able to find your current position on the leaderboard. If the number of ‘submissions’ and ‘accepted triples’ you see associated with your wallet seem lower than expected, this is because your submissions from [Golden.com](http://golden.com) are still being imported and verifiers still need to vote on them.
