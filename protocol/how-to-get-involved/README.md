@@ -16,8 +16,6 @@ Currently needed:
 
 [reward-function-development.md](reward-function-development.md "mention")
 
-[broken-reference](broken-reference/ "mention")
-
 Additional concepts:
 
 * Economic scalability improvements
