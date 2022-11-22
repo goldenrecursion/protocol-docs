@@ -26,12 +26,13 @@ Golden is building a permissionless, open source [protocol](https://golden.xyz/)
 
 ### I am new here, how can I help?
 
-1. Start by [creating an account on Golden.com](https://golden.com/signup) and following the guide for [Connecting a Wallet to Golden.com](https://www.notion.so/Connecting-a-Wallet-to-Golden-com-8cc2addc89f14e8eab4c6d522fada13c) ([settings](https://golden.com/settings/profile) → connect wallet). If you have already made a Golden.com account, just connect your wallet.
-2. Help grow the knowledge graph by [adding data triples and citations](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to [Golden.com](http://golden.com) entity pages. Follow our [Adding Structured Data Guide](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to get started.
+1. Start by [creating an account on Golden.com](https://golden.com/signup) and following the guide to [add-wallet-to-golden.com.md](general-information/add-wallet-to-golden.com.md "mention") ([settings](https://golden.com/settings/profile) → connect wallet). If you have already made a Golden.com account, just connect your wallet.
+2. Sign in to the Golden dApp by following: [accessing-the-dapp.md](protocol/guides/accessing-the-dapp.md "mention").
+3. Help grow the knowledge graph by [adding data triples and citations](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to [Golden.com](http://golden.com) entity pages. Follow our [Adding Structured Data Guide](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to get started.
    1. **Submit triples:** Users that submit fact triples that go on to be accepted will be eligible for an airdrop when the Golden token is released. _Please note, there is no need to paste edits of data triples and citations into Discord, we have a log of your efforts!_
    2. **Verify triples:** Users can become eligible for a future airdrop by verifying triples that get accepted by the protocol on [dapp.golden.xyz](http://dapp.golden.xyz). Please follow our [Triple Verification Guide](https://docs.golden.xyz/protocol/guides/triple-validation-guide) when verifying.
-3. Are you a builder (developer, data scientist etc.) that can help us? Let us know in Discord by [introducing yourself](https://discord.com/channels/900818355315961876/920015042471133204).
-4. Share the project! Tell your friends, developers, or family. [Join our Discord](https://discord.gg/28QcktsGmG) and invite like-minded people to [golden.xyz](https://golden.xyz).
+4. Are you a builder (developer, data scientist etc.) that can help us? Let us know in Discord by [introducing yourself](https://discord.com/channels/900818355315961876/920015042471133204).
+5. Share the project! Tell your friends, developers, or family. [Join our Discord](https://discord.gg/28QcktsGmG) and invite like-minded people to [golden.xyz](https://golden.xyz).
 
 ### **What’s the TLDR on how the protocol works?**
 
