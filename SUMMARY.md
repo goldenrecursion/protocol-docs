@@ -4,6 +4,7 @@
 
 * [Golden Protocol FAQ](README.md)
 * [Guides](protocol/guides/README.md)
+  * [Accessing the dApp](protocol/guides/accessing-the-dapp.md)
   * [Connecting a Wallet to dapp.golden.xyz](protocol/guides/connecting-a-wallet-to-dapp.golden.xyz.md)
   * [Triple Verification Guide](protocol/guides/triple-verification-guide.md)
   * [Flagging Triples](protocol/guides/flagging-triples.md)
