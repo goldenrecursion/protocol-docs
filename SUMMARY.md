@@ -1,8 +1,20 @@
 # Table of contents
 
+* [Welcome to the Golden Protocol](README.md)
+  * [About Golden](predicates/about-golden.md)
+
+## ✴ Getting Started
+
+* [Getting started as a API submitter or verifier](getting-started/getting-started-as-a-api-submitter-or-verifier.md)
+* [Getting started as a protocol developer](getting-started/getting-started-as-a-protocol-developer.md)
+* [Getting started as a data collector](getting-started/getting-started-as-a-data-collector.md)
+* [Getting started as a dApp user](getting-started/getting-started-as-a-dapp-user.md)
+* [Getting started in governance and community](getting-started/getting-started-in-governance-and-community.md)
+
 ## ♾ Protocol
 
-* [Golden Protocol FAQ](README.md)
+* [Golden Protocol FAQ](<README (2).md>)
+* [Incentivized Testnet Activities](protocol/incentivized-testnet-activities.md)
 * [Guides](protocol/guides/README.md)
   * [Accessing the dApp](protocol/guides/accessing-the-dapp.md)
   * [Connecting a Wallet to dapp.golden.xyz](protocol/guides/connecting-a-wallet-to-dapp.golden.xyz.md)
@@ -19,7 +31,7 @@
   * [Reward function development](protocol/how-to-get-involved/reward-function-development.md)
   * [Bulk submission tools](protocol/how-to-get-involved/bulk-submission-tools.md)
   * [IP Ownership](protocol/how-to-get-involved/ip-ownership.md)
-* [Incentivized Testnet Activities](protocol/incentivized-testnet-activities.md)
+* [Open source development](protocol/open-source-development.md)
 
 ## ⚙ API
 
