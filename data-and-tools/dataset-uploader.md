@@ -28,17 +28,12 @@ Contributions addressing non-critical features or issues. This can be in the for
 
 **Low Contribution: up to 2,500 points**
 
-Contributions in the form of issue/bug identification, discussions, and documentation development. Community development like aiding in the rallying of community members (steering repo, meeting organization, social media posts, etc.) will also be considered. 
+Contributions in the form of issue/bug identification and documentation development.
 
 Bug identification contributions vary on the below. [Referring to Stack Overflow’s guidelines may be helpful.](https://stackoverflow.com/help/minimal-reproducible-example)
 
 - Impact of the discovery: 1) minor problem not affecting workflows; 2) medium-scale problem affecting but not impeding workflows **or** minor problem requiring significant effort to fix; and 3) major problem
 - How well scoped and researched the problem is, including details of avenues taken, reproduction steps, potential diagnosis, and suggested solutions
-
-Discussion and community development contributions must be:
-
-- Traceable: in either the repository or designated channel in Discord
-- Meaningful: Examples include 1) Contribution to an Issue by helping clarify either the problem or recommended solution; or 2) Actively assisting other users by answering questions in the Discord channel
 
 Documentation development: Creating new documentation files that help users understand or contribute to the tool, such as enhancement tracking, coding good practice guidelines, and expansion of README.md to include more core information.
 
