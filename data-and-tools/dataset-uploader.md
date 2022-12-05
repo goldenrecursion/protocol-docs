@@ -87,6 +87,18 @@ User makes the following contributions: Milestone 1 High Contribution (250 point
 
 User makes the following contributions: Milestone 1 Low Contribution (50 points), Milestone 2 Low Contribution (50 points), Milestone 3 Mid Contribution (150 points), and Milestone 4 Low Contribution (50 points). The user's Participation Payout would be 300 points.
 
+### How to Receive Payout
+
+Contributors need to fill out the [Dataset Uploader Contribution Registry](https://forms.golden.xyz/dataset-uploader-contribution-registry) to solidify their contribution. It is the responsibility of the contributor to fill out this form in order to receive payout. 
+
+**When or how often do I need to fill out the form?**
+
+For Milestone Payouts: 
+Since these are granted once a milestone's benchmark is achieved, contributors need to fill out the form **once per milestone**. You can do this at any point *after* you make a contribution during the milestone regardless of whether you make more contributions for that milestone. This is because your Milestone Payout is generated after that milestone is achieved. A Discord announcement will be made once a milestone has been reached. Contributors will have 3 days following the announcement to fill out the form if they have not yet already.
+
+For Participation Payouts: 
+No additional steps are needed since contributors would have filled out the form for every milestone they participated in.
+
 ## Contact
 
 Questions, comments, or suggestions related to the Dataset Uploader project? Please contact the maintainer Katrina Pettitt at kat@golden.co or [@katkaypettitt](https://twitter.com/katkaypettitt).
