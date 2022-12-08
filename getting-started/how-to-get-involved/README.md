@@ -27,7 +27,7 @@ Additional concepts:
 
 Currently needed:
 
-[bulk-submission-tools.md](bulk-submission-tools.md "mention")
+[bulk-submission-tools.md](../../protocol/readme-2/bulk-submission-tools.md "mention")
 
 Additional concepts:
 
@@ -40,7 +40,7 @@ Additional concepts:
 
 Currently needed:
 
-[ip-ownership.md](ip-ownership.md "mention")
+[ip-ownership.md](../../protocol/readme-2/ip-ownership.md "mention")
 
 Additional concepts:
 

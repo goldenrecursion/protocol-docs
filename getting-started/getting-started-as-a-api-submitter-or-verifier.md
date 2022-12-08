@@ -8,7 +8,7 @@ description: >-
 
 ## Steps TL;DR
 
-1. [Get into the dApp](../protocol/guides/accessing-the-dapp.md) and retrieve your [authentication (JWT) token](../api/authentication.md).&#x20;
+1. [Get into the dApp](../protocol/incentivized-testnet-activities/accessing-the-dapp.md) and retrieve your [authentication (JWT) token](../api/authentication.md).&#x20;
 2. Follow the quick start guide in the API docs&#x20;
 3. [Join Discord](https://discord.com/invite/golden-protocol), introduce yourself to the `#developers` channel and say what you are interested in making.
 4. Explore the available guides, [data schema](https://dapp.golden.xyz/schema), [apps-and-demos.md](../data-and-tools/apps-and-demos.md "mention"), datasets, and posts.
@@ -19,7 +19,7 @@ description: >-
 
 To access the Golden protocol API you need to first authenticate with a JWT token. To get your token:
 
-1. Follow [accessing-the-dapp.md](../protocol/guides/accessing-the-dapp.md "mention") to create an account and gain access to the dApp. After successfully logging in you will be able to [visit your profile page](https://dapp.golden.xyz/profile) to retrieve your [JWT token](../godel-python-sdk/authentication.md).
+1. Follow [accessing-the-dapp.md](../protocol/incentivized-testnet-activities/accessing-the-dapp.md "mention") to create an account and gain access to the dApp. After successfully logging in you will be able to [visit your profile page](https://dapp.golden.xyz/profile) to retrieve your [JWT token](../godel-python-sdk/authentication.md).
 2. You can test that your token is working correctly by using one of our [apps-and-demos.md](../data-and-tools/apps-and-demos.md "mention").&#x20;
 3. Read the [README (1).md](<../README (1).md> "mention") to get started with the GraphQL API or Python SDK.&#x20;
 

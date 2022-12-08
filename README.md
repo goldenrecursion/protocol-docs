@@ -2,7 +2,7 @@
 
 Golden is building a permissionless, decentralized, open-source protocol that incentivizes the collection and verification of canonical knowledge. Protocol data will be offered to the public for free with commercial usage requiring payment. Continue reading [about-golden.md](predicates/about-golden.md "mention") for more.
 
-The protocol is currently under development and running on the Goerli testnet. We are actively seeking users to help develop protocol components and act as data submitters or verifiers. Please read the [README (2).md](<README (2).md> "mention")for additional information on the protocol mechanics, testnet points, and other common questions.&#x20;
+The protocol is currently under development and running on the Goerli testnet. We are actively seeking users to help develop protocol components and act as data submitters or verifiers. Please read the [readme-2](protocol/readme-2/ "mention")for additional information on the protocol mechanics, testnet points, and other common questions.&#x20;
 
 _This docs site is designed to help users build and interact with the Golden knowledge graph. If you would like to learn more about the project at a higher level check out_ [_golden.xyz_](https://golden.xyz)_, join us on_ [_Discord_](https://discord.com/invite/golden-protocol)_, or read the_ [_blog_](https://golden.com/blog/golden-raises-40m-series-b/)_._
 
@@ -22,7 +22,7 @@ Earn rewards for helping build the decentralized protocol for knowledge. Pick a 
 **The incentivized testnet is live**\
 ****Make data, code, or intellectual contributions to earn testnet points. \
 \
-Learn how to earn: [incentivized-testnet-activities.md](protocol/incentivized-testnet-activities.md "mention") &#x20;
+Learn how to earn: [incentivized-testnet-activities](protocol/incentivized-testnet-activities/ "mention") &#x20;
 {% endhint %}
 
 **Growing the graph:** users have contributed and verified millions of data triples on the Golden protocol. We are now scaling up data input through the [protocol API](<README (1).md>) and [dataset submissions](data-and-tools/data-sources.md#submitting-a-dataset). &#x20;

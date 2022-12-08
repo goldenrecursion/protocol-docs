@@ -6,8 +6,8 @@ description: Learn how to earn rewards for collecting and uploading bulk data.
 
 ## Steps TL;DR
 
-1. Connect to the dApp by following [accessing-the-dapp.md](../protocol/guides/accessing-the-dapp.md "mention") to understand the current state of the protocol.&#x20;
-2. Read the [README (2).md](<../README (2).md> "mention") to get familiar with the basic protocol mechanics.
+1. Connect to the dApp by following [accessing-the-dapp.md](../protocol/incentivized-testnet-activities/accessing-the-dapp.md "mention") to understand the current state of the protocol.&#x20;
+2. Read the [readme-2](../protocol/readme-2/ "mention") to get familiar with the basic protocol mechanics.
 3. View the [protocol schema](https://dapp.golden.xyz/schema) to see the available predicates for data submission.
 4. Read the [data-sources.md](../data-and-tools/data-sources.md "mention") guide to start contributing datasets. &#x20;
 5. [Join the forum](https://forum.golden.xyz/), where proposals can be made with more nuanced discussion. &#x20;
