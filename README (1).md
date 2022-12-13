@@ -8,7 +8,7 @@ description: >-
 
 ![](.gitbook/assets/golden\_api\_docs.png)
 
-Golden's GraphQL API offers developers powerful and flexible queries to retrieve, submit, and verify the data in the Golden protocol. For more information on Golden and the protocol please read the [readme-2](protocol/readme-2/ "mention") guide.
+Golden's GraphQL API offers developers powerful and flexible queries to retrieve, submit, and verify the data in the Golden protocol. For more information on Golden and the protocol please read the [README (2).md](<README (2).md> "mention") guide.
 
 {% hint style="info" %}
 The Golden protocol is currently live on the Goerli testnet.
@@ -21,7 +21,7 @@ Correct verifications (those that agree with the consensus verification vote on 
 
 Attribution and eligibility for testnet points on triple submissions will be assigned by the earliest timestamped transaction.
 
-**Please read the** [triple-verification-guide.md](protocol/concepts/triple-verification-guide.md "mention") **before submitting or verifying triples.**
+**Please read the** [triple-verification-guide.md](protocol/guides/triple-verification-guide.md "mention") **before submitting or verifying triples.**
 {% endhint %}
 
 Developers using the Golden API to create agents that submit and verify triples are encouraged to join the [Golden Discord group](https://discord.gg/golden-protocol) to share ideas, feedback, and requests.

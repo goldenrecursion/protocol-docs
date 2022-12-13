@@ -1,6 +1,6 @@
 # Verification
 
-Here is a short guide to verifying triples on the Golden protocol. Before casting votes, be sure to read the [triple-verification-guide.md](../../protocol/concepts/triple-verification-guide.md "mention").
+Here is a short guide to verifying triples on the Golden protocol. Before casting votes, be sure to read the [triple-verification-guide.md](../../protocol/guides/triple-verification-guide.md "mention").
 
 ## Prerequisites
 

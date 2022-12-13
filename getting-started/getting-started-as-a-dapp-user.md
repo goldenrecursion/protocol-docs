@@ -6,9 +6,9 @@ description: Learn how to earn rewards by verifying data through the Golden dApp
 
 ## Steps TL;DR
 
-1. Connect to the dApp by following [accessing-the-dapp.md](../protocol/incentivized-testnet-activities/accessing-the-dapp.md "mention") to understand the current state of the protocol.&#x20;
-2. Read the [readme-2](../protocol/readme-2/ "mention") to get familiar with the basic protocol mechanics.
-3. Read and understand the full process in [triple-verification-guide.md](../protocol/concepts/triple-verification-guide.md "mention").
+1. Connect to the dApp by following [accessing-the-dapp.md](../protocol/guides/accessing-the-dapp.md "mention") to understand the current state of the protocol.&#x20;
+2. Read the [README (2).md](<../README (2).md> "mention") to get familiar with the basic protocol mechanics.
+3. Read and understand the full process in [triple-verification-guide.md](../protocol/guides/triple-verification-guide.md "mention").
 4. [Join Discord](https://discord.com/invite/golden-protocol), introduce yourself and mention what you are interested in working on.
 5. [Join the forum](https://forum.golden.xyz/), where proposals can be made with more nuanced discussion. &#x20;
 
@@ -20,6 +20,6 @@ Earn testnet points for verifying the correctness of triples that have been subm
 
 ### What is a [verification.md](../protocol/concepts/verification.md "mention")?
 
-### Full process and rules: [triple-verification-guide.md](../protocol/concepts/triple-verification-guide.md "mention").
+### Full process and rules: [triple-verification-guide.md](../protocol/guides/triple-verification-guide.md "mention").
 
-### Start now by [accessing-the-dapp.md](../protocol/incentivized-testnet-activities/accessing-the-dapp.md "mention").
+### Start now by [accessing-the-dapp.md](../protocol/guides/accessing-the-dapp.md "mention").

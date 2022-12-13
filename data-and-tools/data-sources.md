@@ -16,7 +16,7 @@ _<mark style="color:yellow;">Note</mark>: information submitted to the Golden Pr
 
 ### Submitting a dataset
 
-We encourage and offer testnet incentives to users that add data sources to this list. See [#dataset-contribution](../protocol/incentivized-testnet-activities/#dataset-contribution "mention") for details on testnet rewards.&#x20;
+We encourage and offer testnet incentives to users that add data sources to this list. See [#dataset-contribution](../protocol/incentivized-testnet-activities.md#dataset-contribution "mention") for details on testnet rewards.&#x20;
 
 To submit a dataset you may use this form:
 

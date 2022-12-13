@@ -6,7 +6,7 @@ description: How to contribute to Golden's open source development efforts.
 
 Golden has and will continue to release open-source software so that the community can aid in creating a durable and transparent protocol. Development efforts include protocol contracts, tools, data submission/verification examples, and security systems.&#x20;
 
-Making code contributions (successful pull requests) may qualify you for testnet point rewards, see [#developer-contributions](incentivized-testnet-activities/#developer-contributions "mention") for more information.&#x20;
+Making code contributions (successful pull requests) may qualify you for testnet point rewards, see [#developer-contributions](incentivized-testnet-activities.md#developer-contributions "mention") for more information.&#x20;
 
 ## Repositories &#x20;
 
