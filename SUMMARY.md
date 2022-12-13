@@ -26,6 +26,7 @@
   * [Minimum Disambiguation Triple Requirements (MDT)](protocol/concepts/minimum-disambiguation-triple-requirements-mdt.md)
   * [Ground Truth Triples (GTT)](protocol/concepts/ground-truth-triples-gtt.md)
   * [Disambiguation](protocol/concepts/disambiguation.md)
+  * [Staking](protocol/concepts/staking.md)
   * [Citations](protocol/concepts/citations.md)
 * [How to get involved](protocol/how-to-get-involved/README.md)
   * [Reward function development](protocol/how-to-get-involved/reward-function-development.md)

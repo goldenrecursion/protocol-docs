@@ -6,7 +6,7 @@ description: >-
 
 # Staking
 
-The testnet point balance in a user's [wallet](https://dapp.golden.xyz/wallet/points/contributions)[ in the dApp](https://dapp.golden.xyz/wallet/points/contributions) reflects the number of testnet points they have _staked_. Users use __ a portion of their staked testnet points as collateral against new votes and submissions.
+The testnet point balance in a user's [wallet](https://dapp.golden.xyz/wallet/points/contributions)[ in the dApp](https://dapp.golden.xyz/wallet/points/contributions) reflects the number of testnet points they have _staked_. Users use a portion of their staked testnet points as collateral against new votes and submissions.
 
 Staking limits a user's ability to contribute a significant number of erroneous submissions or votes to the protocol. In order to submit or vote, a user's staked testnet points balance must be greater than the sum of that user's testnet points collateralized against pending votes and submissions.
 
@@ -19,5 +19,3 @@ You will not be able to contribute new votes or submissions if:
 
 * Your staked testnet point balance is 0
 * Your entire staked testnet point balance is collateralized
-
-~~<mark style="color:red;">In mainnet, users will lock golden token as collateral against their submissions and votes.</mark>~~
