@@ -30,6 +30,10 @@ Tools to help interact with the knowledge graph without writing code.&#x20;
 
 A python-based economic model for analyzing tokenomics and gaming potentials.
 
+### [Dataset Uploader](https://github.com/goldenrecursion/dataset-uploader)
+
+No-code application to import datasets to the protocol.
+
 
 
 ## See the complete list of repos [on Github](https://github.com/goldenrecursion).&#x20;
