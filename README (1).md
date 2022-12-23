@@ -13,8 +13,6 @@ Golden's GraphQL API offers developers powerful and flexible queries to retrieve
 {% hint style="info" %}
 The Golden protocol is currently live on the Goerli testnet.
 
-Golden has prestaked testnet points to wallets with submitted triples on Golden.com to get started. To become eligible to submit or verify triples with the API or dApp, you must connect a wallet on Golden.com and submit at least one triple.
-
 Verifiers submitting incorrect verifications (those that do not match the consensus verification vote on a triple) will be penalized by losing a portion of their testnet points (testnet points will be used to calculate future eligible airdrops). In extreme cases, verifiers may lose all of their testnet points and/or their access to dApp.
 
 Correct verifications (those that agree with the consensus verification vote on the triple) will be rewarded with testnet points.
