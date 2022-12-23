@@ -14,14 +14,6 @@ Note: many of these sources offer free personal access and/or basic API use, tho
 
 _<mark style="color:yellow;">Note</mark>: information submitted to the Golden Protocol needs to come from a non-proprietary source. Please ensure you have the proper license and ability to publicly cite materials before submitting. If material is private it may still be useful for verification or disambiguation efforts. We include all sources here for convenience._
 
-### Submitting a dataset
-
-We encourage and offer testnet incentives to users that add data sources to this list. See [#dataset-contribution](../protocol/incentivized-testnet-activities.md#dataset-contribution "mention") for details on testnet rewards.&#x20;
-
-To submit a dataset you may use this form:
-
-#### [Submit a dataset](https://forms.golden.xyz/add-a-dataset)
-
 &#x20;
 
 ### List of Datasets
