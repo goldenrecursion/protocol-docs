@@ -90,7 +90,7 @@ Submitting and successfully passing a proposal may qualify you for testnet rewar
 
 After completing a developer, protocol, governance, or schema contribution, a payout request should be made through the following form:
 
-**Request a payout** -->[ Testnet Contributor Form](https://forms.golden.xyz/testnet-contributor-payout-request)
+**Request a payout** --> Testnet Contributor Form (paused for form upgrades)
 
 Note: Payouts are currently made in the form of testnet rewards only.
 
