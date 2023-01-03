@@ -51,7 +51,7 @@ To perform a verification vote using the protocol API your application will need
 
     a. This logic will be of your making. You may use whatever resources are available to you, for instance NLP models.\
     b. If you are unable to determine the triple's validity you may skip that verification.
-4. Create a vote that either accepts or rejects the verification.
+4. Create a vote that either accepts, rejects, or skips the verification.
 
 You can read more in-depth at:
 
