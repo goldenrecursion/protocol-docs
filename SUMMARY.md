@@ -47,7 +47,6 @@
 * [GraphQL API](overview/README.md)
   * [Data Schema](overview/data-schema.md)
   * [GraphQL Examples](api/overview/calls-with-graphql.md)
-  * [Changelog](overview/changelog.md)
   * [Resource Limitation](overview/resource-limitation.md)
   * [GraphQL API Reference](api/overview/api-reference.md)
 * [Python SDK (Godel)](godel-python-sdk/README.md)

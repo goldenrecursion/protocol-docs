@@ -4,7 +4,7 @@ description: >-
   change logs, and resource limitations.
 ---
 
-# Overview
+# GraphQL API
 
 This is the overview page; navigate across our documentation with the links below or in our side bar.
 
@@ -14,8 +14,8 @@ This is the overview page; navigate across our documentation with the links belo
 [data-schema.md](data-schema.md)
 {% endcontent-ref %}
 
-{% content-ref url="changelog.md" %}
-[changelog.md](changelog.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="rate-limits.md" %}
