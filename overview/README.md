@@ -14,10 +14,10 @@ This is the overview page; navigate across our documentation with the links belo
 [data-schema.md](data-schema.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../api/overview/calls-with-graphql.md" %}
+[calls-with-graphql.md](../api/overview/calls-with-graphql.md)
 {% endcontent-ref %}
 
-{% content-ref url="rate-limits.md" %}
-[rate-limits.md](rate-limits.md)
+{% content-ref url="resource-limitation.md" %}
+[resource-limitation.md](resource-limitation.md)
 {% endcontent-ref %}
