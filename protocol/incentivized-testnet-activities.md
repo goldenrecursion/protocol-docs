@@ -4,7 +4,7 @@ description: Learn how to earn testnet rewards by helping build the Golden Proto
 
 # Incentivized Testnet Activities
 
-Note: Specific reward allocation for each activity is being worked on and calibrated to a budget that rewards up to 1% of the tokens at protocol launch.
+Note: Specific reward allocation for each activity is being worked on and calibrated to a budget that rewards up to 1% of the mainnet incentives at protocol launch.
 
 ### Entity and Triple Submission
 
@@ -98,7 +98,7 @@ Note: Payouts are currently made in the form of testnet rewards only.
 
 **Testnet Rewards**
 
-The Golden Incentivized Testnet program will distribute up to 1% of the initial supply of Golden tokens to eligible participants, proportional to your testnet rewards. Testnet rewards are used solely to track contributions to Golden’s Incentivized Testnet and have no cash or monetary value. Testnet rewards are not transferable and are not redeemable or exchangeable for any cryptocurrency or digital assets. For eligible users under relevant securities laws, we will use commercially reasonable efforts to distribute tokens to eligible testnet participants. Token distribution may be canceled at any time due to regulatory concerns. We reserve the right to amend or eliminate testnet rewards at any time.​
+The Golden Incentivized Testnet program will distribute up to 1% of the initial supply of mainnet incentives to eligible participants, proportional to your testnet rewards. Testnet rewards are used solely to track contributions to Golden’s Incentivized Testnet and have no cash or monetary value. Testnet rewards are not transferable and are not redeemable or exchangeable for any cryptocurrency or digital assets. For eligible users under relevant securities laws, we will use commercially reasonable efforts to distribute incentives to eligible testnet participants. Incentive distribution may be canceled at any time due to regulatory concerns. We reserve the right to amend or eliminate testnet rewards at any time.​
 
 **Maintenance and Unforeseeable Events​**
 

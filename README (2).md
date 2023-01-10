@@ -29,14 +29,14 @@ Golden is building a permissionless, open source [protocol](https://golden.xyz/)
 1. Start by [creating an account on Golden.com](https://golden.com/signup) and following the guide to [add-wallet-to-golden.com.md](general-information/add-wallet-to-golden.com.md "mention") ([settings](https://golden.com/settings/profile) → connect wallet). If you have already made a Golden.com account, just connect your wallet.
 2. Sign in to the Golden dApp by following: [accessing-the-dapp.md](protocol/guides/accessing-the-dapp.md "mention").
 3. Help grow the knowledge graph by [adding data triples and citations](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to [Golden.com](http://golden.com) entity pages. Follow our [Adding Structured Data Guide](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to get started.
-   1. **Submit triples:** Users that submit fact triples that go on to be accepted will be eligible for an airdrop when the Golden token is released. _Please note, there is no need to paste edits of data triples and citations into Discord, we have a log of your efforts!_
+   1. **Submit triples:** Users that submit fact triples that go on to be accepted will be eligible for mainnet incentives. _Please note, there is no need to paste edits of data triples and citations into Discord, we have a log of your efforts!_
    2. **Verify triples:** Users can become eligible for a future airdrop by verifying triples that get accepted by the protocol on [dapp.golden.xyz](http://dapp.golden.xyz). Please follow our [Triple Verification Guide](https://docs.golden.xyz/protocol/guides/triple-validation-guide) when verifying.
 4. Are you a builder (developer, data scientist etc.) that can help us? Let us know in Discord by [introducing yourself](https://discord.com/channels/900818355315961876/920015042471133204).
 5. Share the project! Tell your friends, developers, or family. [Join our Discord](https://discord.gg/28QcktsGmG) and invite like-minded people to [golden.xyz](https://golden.xyz).
 
 ### **What’s the TLDR on how the protocol works?**
 
-1. **Tokens for submission and verification:** Tokens are earned by submitters and verifiers for loading and verifying true facts (triples) into the knowledge graph. E.g. _‘Apple’ ‘was founded in’ ‘1976’_. Verifiers confirm the correctness of the triples by voting. Once the number of votes reaches a statistical threshold, the ‘fact’ is accepted by the knowledge graph and immutably stored. As the knowledge graph grows, the data itself can be used to aid verification. Submitters and verifiers gain a reputation score as triples are accepted.
+1. **Testnet points for submission and verification:** Tesnet points are earned by submitters and verifiers for loading and verifying true facts (triples) into the knowledge graph. E.g. _‘Apple’ ‘was founded in’ ‘1976’_. Verifiers confirm the correctness of the triples by voting. Once the number of votes reaches a statistical threshold, the ‘fact’ is accepted by the knowledge graph and immutably stored. As the knowledge graph grows, the data itself can be used to aid verification. Submitters and verifiers gain a reputation score as triples are accepted.
 2. **Data NFTs, fractional ownership, and revenue share incentives:** NFTs are used to organize fractional ownership between the creators of the data associated with each unique entity. Various canonical data can be associated with the unique data NFTs including triples, natural language in various translations, canonical images, or otherwise. These NFTs will assist with disambiguation and allow fractionalized ownership for the submitters, verifiers, and the protocol. Revenue shared from commercial data usage can be distributed to the creators of the data and protocol. Copyright law is used to protect intellectual property and afford commercial usage of the data while allowing free usage by the public.
 3. **Anti-gaming:** A Sybil attack resistance, game-theoretic approach is used to provide asymmetric costs to gaming the protocol. Slashing staked collateral is a mechanic used to prevent submitters and verifiers from incorrectly submitting or voting. Reputation scores are implemented to increase efficiency in staking and slashing. Voting is blind.
 
@@ -44,24 +44,24 @@ V0 system design:
 
 {% embed url="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FuDIr66fHSwokJzWURnvl0o%2FGolden-Diagrams%3Fnode-id%3D0%253A1" %}
 
-### When will a token be released?
+### When will a mainnet incentive be released?
 
-There is currently no Golden token and no set date for release. The team will clearly communicate this release well in advance of the launch.
+There is currently no mainnet incentive and no set date for release. The team will clearly communicate this release well in advance of the launch.
 
-⚠️ Important: We will \***never**\* directly message you about the token sale, so please do not interact with any such messages, as they are spam. When we launch the token, we will do so on multiple marketing channels including core discord announcements channels, Twitter, and our blog.
+⚠️ Important: We will \***never**\* directly message you about a mainnet incentive launch (ex: token sale), so please do not interact with any such messages, as they are spam. When we launch the incentive, we will do so on multiple marketing channels including core Discord channels, Twitter, and our blog.
 
 The team is working aggressively towards a mainnet launch. Currently, we are creating our protocol and [dApp](https://dapp.golden.xyz/) on the testnet. We will announce an estimated launch date as we further build the protocol. We are building Golden in an SEC-compliant manner and are not cutting corners with compliance.
 
-### **How will airdrops be awarded?**
+### **How will testnet points be awarded?**
 
-At this time, performing the following tasks will make you eligible for an airdrop:
+At this time, performing the following tasks may qualify you to earn testnet points:
 
-* submitting triples that go on to be accepted
-* performing correct verification
-* developing the protocol code
-* adding a citation to a triple that exists on Golden that doesn’t have a citation already
+* Submitting triples that go on to be accepted
+* Performing triple verifications that go on to agree with voting consensus
+* Developing protocol code
+* Adding citations to triples that do not have a citation already
 
-Up to 1% of the token treasury will be awarded to the community for correct data submission and verification.
+Up to 1% of the incentive treasury will be awarded to the community for protocol contributions made during the testnet phase. See [incentivized-testnet-activities.md](protocol/incentivized-testnet-activities.md "mention") for more.
 
 ### How can I perform triple submission tasks?
 
@@ -73,15 +73,15 @@ The [Triple Verification Guide](https://docs.golden.xyz/protocol/guides/triple-v
 
 ### I have been adding triples, are my efforts being counted?
 
-Yes! You will eligible for an airdrop reward relative to the number of correct triples you have submitted when we launch our token on the mainnet.
+Yes! You will eligible for an incentive reward relative to the number of correct triples you have submitted when we launch our protocol on the mainnet.
 
-**Note**: for additions to be counted towards airdrop rewards they must follow the [Adding Structured Data Guide](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) and not attempt to game the protocol.
+**Note**: for additions to be counted towards incentive rewards they must follow the [Adding Structured Data Guide](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) and not attempt to game the protocol.
 
 ### I have been adding citations, are my efforts being counted?
 
-Yes! Adding valid citations to any triple that is missing a citation will qualify you for a special airdrop, and will help the triples you have cited become verified. Citations should be focused around triples that are not URL predicates, especially triples added after the launch of [golden.xyz](http://golden.xyz).
+Yes! Adding valid citations to any triple that is missing a citation will qualify you for a special incentive, and will help the triples you have cited become verified. Citations should be focused around triples that are not URL predicates, especially triples added after the launch of [golden.xyz](http://golden.xyz).
 
-### **Will any contribution to** [**golden.com**](http://golden.com) **count for a future airdrop?**
+### **Will any contribution to** [**golden.com**](http://golden.com) **count for a future incentive reward?**
 
 No. We are focused on triples that go on to be verified along with citations for triples. As of February 16, 2022, natural language and prose in articles will not be rewarded. If you still wish to contribute prose, please follow our [Writing Guide](https://www.notion.so/Writing-Guide-1e96be6c4c4742a288a142dbc212248c). We are currently _only accepting prose in the English language_, though we plan to expand this as soon as possible.
 
@@ -89,9 +89,9 @@ No. We are focused on triples that go on to be verified along with citations for
 
 [Golden.com](http://golden.com) is the current place to register your user account, connect your wallet and submit triple data (with citations). The [dApp](https://dapp.golden.xyz/) is a minimal dApp on testnet with a focused UI around verification.
 
-### Initial testnet point allocations will not be included in a future airdrop
+### Initial testnet point allocations will not be considered for incentive rewards
 
-The initial testnet points that are allocated when a user joins the dApp are used as an initial staking mechanic by the protocol to enable triple submission and verification. This initial testnet point allocation will NOT be considered in a future mainnet airdrop reward. Testnet points are designed to reward users for taking positive actions in the protocol.
+The initial testnet points that are allocated when a user joins the dApp are used as an initial staking mechanic by the protocol to enable triple submission and verification. This initial testnet point allocation will NOT be considered in a future mainnet incentive reward. Testnet points are designed to reward users for taking positive actions in the protocol.
 
 ### How can I find my position on the leaderboard?
 

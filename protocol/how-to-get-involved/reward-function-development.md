@@ -1,6 +1,6 @@
 ---
 description: >-
-  Reward functions will dictate how token rewards and NFT ownership are
+  Reward functions will dictate how incentive rewards and NFT ownership are
   distributed for agents completing tasks in the protocol.
 ---
 
@@ -8,11 +8,11 @@ description: >-
 
 ### How is the protocol using reward functions?
 
-Currently, the Golden protocol rewards submissions and verifications in a pre-defined manner. We plan to move to a fully dynamic system that takes into account: predicate type, value to paid customers, value to the knowledge graph, and load balancing for verifiers. The reward functions will help dictate both token payouts for contributions to the protocol, as well as NFT ownership for those contributions.
+Currently, the Golden protocol rewards submissions and verifications in a pre-defined manner. We plan to move to a fully dynamic system that takes into account: predicate type, value to paid customers, value to the knowledge graph, and load balancing for verifiers. The reward functions will help dictate both incentive payouts for contributions to the protocol, as well as NFT ownership for those contributions.
 
 We expect the NFT ownership awarded for a particular contribution to correlate to the long-term value this contribution will have for the entity.
 
-We expect the future token reward function to be significantly weighted by external demand for particular data.
+We expect the future incentive reward function to be significantly weighted by external demand for particular data.
 
 ### Unsolved questions and specific tasks
 
