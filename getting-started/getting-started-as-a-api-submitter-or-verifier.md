@@ -25,7 +25,7 @@ To access the Golden protocol API you need to first authenticate with a JWT toke
 
 ## Learn the knowledge graph schema
 
-Before submitting or verifying data it is essential to understand the schema for the knowledge graph. The graph is created from subject predicate object (SPO) [triples](https://docs.golden.xyz/concepts/triple) as detailed in the
+Before submitting or verifying data it is essential to understand the schema for the knowledge graph. The graph is created from subject predicate object (SPO) triples, for more background information read [triple.md](../protocol/concepts/triple.md "mention").
 
 * You can currently submit and verify information related to the predicates listed in the [protocol schema](https://dapp.golden.xyz/schema).
 * If the information you wish to submit is not included in this schema, you may request it through the [predicate-improvement-process.md](../governance/predicates/predicate-improvement-process.md "mention").
