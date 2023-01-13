@@ -4,7 +4,7 @@ description: Learn how to earn testnet rewards by helping build the Golden Proto
 
 # Incentivized Testnet Activities
 
-Note: Specific reward allocation for each activity is being worked on and calibrated to a budget that rewards up to 1% of the mainnet incentives at protocol launch.
+Note: Specific reward allocation for each activity is being worked on and calibrated to a budget that rewards up to 1% of the initial supply of mainnet incentives at protocol launch.
 
 ### Entity and Triple Submission
 
