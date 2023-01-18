@@ -5,7 +5,7 @@
 
 ## ✴ Getting Started
 
-* [Getting started as a API submitter or verifier](getting-started/getting-started-as-a-api-submitter-or-verifier.md)
+* [Getting started as a submitter or verifier](getting-started/getting-started-as-a-api-submitter-or-verifier.md)
 * [Getting started as a protocol developer](getting-started/getting-started-as-a-protocol-developer.md)
 * [Getting started as a data collector](getting-started/getting-started-as-a-data-collector.md)
 * [Getting started as a dApp user](getting-started/getting-started-as-a-dapp-user.md)
@@ -20,6 +20,7 @@
   * [Connecting a Wallet to dapp.golden.xyz](protocol/guides/connecting-a-wallet-to-dapp.golden.xyz.md)
   * [Triple Verification Guide](protocol/guides/triple-verification-guide.md)
   * [Flagging Triples](protocol/guides/flagging-triples.md)
+  * [Completing a Bounty](protocol/guides/completing-a-bounty.md)
 * [Concepts](protocol/concepts/README.md)
   * [Triple](protocol/concepts/triple.md)
   * [Verification](protocol/concepts/verification.md)
@@ -27,6 +28,7 @@
   * [Ground Truth Triples (GTT)](protocol/concepts/ground-truth-triples-gtt.md)
   * [Disambiguation](protocol/concepts/disambiguation.md)
   * [Staking](protocol/concepts/staking.md)
+  * [Bounties](protocol/concepts/bounties.md)
   * [Citations](protocol/concepts/citations.md)
 * [How to get involved](protocol/how-to-get-involved/README.md)
   * [Reward function development](protocol/how-to-get-involved/reward-function-development.md)

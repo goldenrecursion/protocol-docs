@@ -4,7 +4,7 @@ description: >-
   verifying information at scale.
 ---
 
-# Getting started as a API submitter or verifier
+# Getting started as a submitter or verifier
 
 ## Steps TL;DR
 
@@ -19,7 +19,7 @@ description: >-
 
 To access the Golden protocol API you need to first authenticate with a JWT token. To get your token:
 
-1. Follow [accessing-the-dapp.md](../protocol/guides/accessing-the-dapp.md "mention") to create an account and gain access to the dApp. After successfully logging in you will be able to [visit your profile page](https://dapp.golden.xyz/profile) to retrieve your [JWT token](../godel-python-sdk/authentication.md).
+1. Follow [accessing-the-dapp.md](../protocol/guides/accessing-the-dapp.md "mention") to create an account and gain access to the dApp. After successfully logging in you will be able to [visit your settings page](https://dapp.golden.xyz/profile) to retrieve your [JWT token](../godel-python-sdk/authentication.md).
 2. You can test that your token is working correctly by using one of our [apps-and-demos.md](../data-and-tools/apps-and-demos.md "mention").&#x20;
 3. Read the [README (1).md](<../README (1).md> "mention") to get started with the GraphQL API or Python SDK.&#x20;
 
@@ -34,7 +34,11 @@ Before submitting or verifying data it is essential to understand the schema for
 
 ### Data submission
 
-For a full tutorial on data submission follow the disambiguation walkthrough read[python-sdk-disambiguation-tutorial.md](../api/disambiguation-service/python-sdk-disambiguation-tutorial.md "mention")
+For a full tutorial on data submission follow the disambiguation walkthrough read[python-sdk-disambiguation-tutorial.md](../api/disambiguation-service/python-sdk-disambiguation-tutorial.md "mention").
+
+### Bounties
+
+Instructions on identifying and completing bounties for additional rewards are detailed in[completing-a-bounty.md](../protocol/guides/completing-a-bounty.md "mention").
 
 ### Verification
 
