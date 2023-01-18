@@ -18,6 +18,7 @@ By using the real-time events API it is possible to subscribe to notification ev
 
 Currently, the following events are emitted:
 
+* `StatementPending`: whenever a statement gets submitted to the protocol
 * `StatementAcceptConsensus`: whenever a statement gets accepted via a consensus vote
 * `StatementRejectConsensus`: whenever a statement gets rejected via a consensus vote
 
