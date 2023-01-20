@@ -6,7 +6,7 @@ description: >-
 
 # Reputation
 
-A user's reputation score represents the confidence the protocol has that this user is acting in good faith. Every user starts with a reputation score of 500 that is recalculated with:
+A user's reputation score represents the confidence the protocol has that this user is acting in good faith. Every user starts with a reputation score of 0 that is recalculated with:
 
 * **Verifications**: a user's vote agreeing / disagreeing with the consensus outcome of a triple will increase / decrease the user's reputation score, respectively.
 * **Submissions**: a user's submission reaching a consensus accept / reject will increase / decrease the user's reputation score, respectively.
