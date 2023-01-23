@@ -7,3 +7,4 @@ structure:
 redirects:  
     golden-info./golden-overview-and-faq: README.md
     project-information/golden-overview-and-faq: README.md
+    protocol/guides/flagging-triples: protocol/guides/flagging.md
