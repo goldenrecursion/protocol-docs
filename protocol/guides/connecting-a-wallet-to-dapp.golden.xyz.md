@@ -27,5 +27,5 @@ Note: If you have not connected a wallet to your account on [Golden.com](http://
 
 5\. Press 'Sign' on the signature request window.
 
-![](<../../.gitbook/assets/Screen Shot 2022-06-28 at 4.22.49 PM (1).png>)
+![](<../../.gitbook/assets/Screen Shot 2022-06-28 at 4.22.49 PM.png>)
 

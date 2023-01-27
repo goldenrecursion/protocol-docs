@@ -27,7 +27,6 @@
   * [Minimum Disambiguation Triple Requirements (MDT)](protocol/concepts/minimum-disambiguation-triple-requirements-mdt.md)
   * [Ground Truth Triples (GTT)](protocol/concepts/ground-truth-triples-gtt.md)
   * [Disambiguation](protocol/concepts/disambiguation.md)
-  * [Reputation](protocol/concepts/reputation.md)
   * [Staking](protocol/concepts/staking.md)
   * [Bounties](protocol/concepts/bounties.md)
   * [Citations](protocol/concepts/citations.md)
