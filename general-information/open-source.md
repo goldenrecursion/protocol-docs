@@ -6,6 +6,10 @@ Golden supports the open source community and its developers by sharing and cont
 
 {% embed url="https://golden.xyz" %}
 
+## Smart Contracts Repo
+
+{% embed url="https://github.com/goldenrecursion/contracts" %}
+
 ## Godel: Golden's Python SDK
 
 {% embed url="https://github.com/goldenrecursion/godel" %}
