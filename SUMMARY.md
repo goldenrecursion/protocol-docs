@@ -65,6 +65,7 @@
 * [Data Sources](data-and-tools/data-sources.md)
 * [Apps and Demos](data-and-tools/apps-and-demos.md)
 * [Dataset Uploader](data-and-tools/dataset-uploader.md)
+* [Data Plugins](data-and-tools/data-plugins.md)
 
 ## ⚖ Governance
 
