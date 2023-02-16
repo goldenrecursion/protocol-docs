@@ -6,23 +6,9 @@ description: >-
 
 # Golden Protocol FAQ
 
-### Status and progress
+### What is the background of Golden?
 
-Golden is on a mission to map all human knowledge.&#x20;
-
-We [started](https://golden.com/blog/introducing-golden/) as a [web2 company](https://golden.com/wiki/Golden-5R) in San Francisco. We [raised $20m](https://golden.com/blog/golden-raises-14-5m-series-a-led-by-a16z/) from leading investors ranging from a16z to Balaji to Founders Fund and many others. Since the Fall 2021, we have been ramping up efforts to create a web3 version of Golden to increase the speed that the knowledge graph can be built.&#x20;
-
-Golden is building a permissionless, open source [protocol](https://golden.xyz/) that incentivizes the collection and verification of canonical knowledge, which it will offer to the public for free and charge commercial entities.
-
-**User growth:** 10’s of thousands of users (growing daily) have connected wallets to Golden and are submitting data into the protocol.
-
-**Data collection:** users have contributed millions of data triples to Golden so far, and we have started the process of the verification of these triples.
-
-**Protocol development:** We are developing a protocol, [dApp](https://dapp.golden.xyz/), and APIs for submitting and verifying triples. [Golden.com](http://golden.com) is in the process of being optimized for full web3 integration.
-
-**Whitepaper:** We have written our whitepaper, which is currently in review to be made public soon.
-
-**Hiring:** We are hiring fast and have [many open roles](https://www.notion.so/Golden-Careers-Public-c19e625ad4874be8b845b756ee1b0252). Please apply or share.
+Golden is building a permissionless, open-source protocol that incentivizes the collection and verification of canonical knowledge, which will be offered to the public for free and as a paid service to commercial entities. Golden started as a [web2 company](https://golden.com/wiki/Golden-5R) in San Francisco and has since [raised $60m](https://golden.com/blog/golden-raises-40m-series-b/) from leading investors ranging from a16z crypto to Balaji to Founders Fund and many others.
 
 ### I am new here, how can I help?
 
@@ -36,8 +22,8 @@ Golden is building a permissionless, open source [protocol](https://golden.xyz/)
 
 ### **What’s the TLDR on how the protocol works?**
 
-1. **Testnet points for submission and verification:** Tesnet points are earned by submitters and verifiers for loading and verifying true facts (triples) into the knowledge graph. E.g. _‘Apple’ ‘was founded in’ ‘1976’_. Verifiers confirm the correctness of the triples by voting. Once the number of votes reaches a statistical threshold, the ‘fact’ is accepted by the knowledge graph and immutably stored. As the knowledge graph grows, the data itself can be used to aid verification. Submitters and verifiers gain a reputation score as triples are accepted.
-2. **Data NFTs, fractional ownership, and revenue share incentives:** NFTs are used to organize fractional ownership between the creators of the data associated with each unique entity. Various canonical data can be associated with the unique data NFTs including triples, natural language in various translations, canonical images, or otherwise. These NFTs will assist with disambiguation and allow fractionalized ownership for the submitters, verifiers, and the protocol. Revenue shared from commercial data usage can be distributed to the creators of the data and protocol. Copyright law is used to protect intellectual property and afford commercial usage of the data while allowing free usage by the public.
+1. **Incentives for submission and verification:** Incentives are earned by submitters and verifiers for loading and verifying true facts (triples) into the knowledge graph. E.g. _‘Apple’ ‘was founded in’ ‘1976’_. Verifiers confirm the correctness of the triples by voting. Once the number of votes reaches a statistical threshold, the ‘fact’ is accepted by the knowledge graph and immutably stored. As the knowledge graph grows, the data itself can be used to aid verification. Submitters and verifiers gain a reputation score as triples are accepted.
+2. **Data NFTs, fractional ownership, and revenue sharing:** NFTs are used to organize fractional ownership between the creators of the data associated with each unique entity. Various canonical data can be associated with the unique data NFTs including triples, natural language in various translations, canonical images, or otherwise. These NFTs will assist with disambiguation and allow fractionalized ownership for the submitters, verifiers, and the protocol. Revenue shared from commercial data usage can be distributed to the creators of the data and protocol. Copyright law is used to protect intellectual property and afford commercial usage of the data while allowing free usage by the public.
 3. **Anti-gaming:** A Sybil attack resistance, game-theoretic approach is used to provide asymmetric costs to gaming the protocol. Slashing staked collateral is a mechanic used to prevent submitters and verifiers from incorrectly submitting or voting. Reputation scores are implemented to increase efficiency in staking and slashing. Voting is blind.
 
 V0 system design:
@@ -46,22 +32,22 @@ V0 system design:
 
 ### When will a mainnet incentive be released?
 
-There is currently no mainnet incentive and no set date for release. The team will clearly communicate this release well in advance of the launch.
+There is currently no mainnet incentive and no set date for release for any incentives. The team is still in the process of designing appropriate incentives for the protocol and will clearly communicate this well in advance of the launch
 
-⚠️ Important: We will \***never**\* directly message you about a mainnet incentive launch (ex: token sale), so please do not interact with any such messages, as they are spam. When we launch the incentive, we will do so on multiple marketing channels including core Discord channels, Twitter, and our blog.
+⚠️ Important: We will \***never**\* directly message you about any form of public sale, so please do not interact with any such messages, as they are spam. When we launch on mainnet, we will do so clearly on multiple marketing channels including Discord announcements channels, Twitter, and, email, and our blog.
 
 The team is working aggressively towards a mainnet launch. Currently, we are creating our protocol and [dApp](https://dapp.golden.xyz/) on the testnet. We will announce an estimated launch date as we further build the protocol. We are building Golden in an SEC-compliant manner and are not cutting corners with compliance.
 
-### **How will testnet points be awarded?**
+### **What activities can I perform?**
 
 At this time, performing the following tasks may qualify you to earn testnet points:
 
 * Submitting triples that go on to be accepted
-* Performing triple verifications that go on to agree with voting consensus
+* Performing triple verifications that go to agree with voting consensus
 * Developing protocol code
 * Adding citations to triples that do not have a citation already
 
-Up to 1% of the incentive treasury will be awarded to the community for protocol contributions made during the testnet phase. See [incentivized-testnet-activities.md](protocol/incentivized-testnet-activities.md "mention") for more.
+Up to 1% of the token treasury will be awarded to the community for correct data submission and verification.
 
 ### How can I perform triple submission tasks?
 
@@ -73,13 +59,13 @@ The [Triple Verification Guide](https://docs.golden.xyz/protocol/guides/triple-v
 
 ### I have been adding triples, are my efforts being counted?
 
-Yes! You will eligible for an incentive reward relative to the number of correct triples you have submitted when we launch our protocol on the mainnet.
+Yes. You will eligible for incentive rewards relative to the number of correct triples you have submitted when we launch our token on the mainnet.
 
-**Note**: for additions to be counted towards incentive rewards they must follow the [Adding Structured Data Guide](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) and not attempt to game the protocol.
+**Note**: for additions to be counted towards rewards they must follow the [Adding Structured Data Guide](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) and not attempt to game the protocol.
 
 ### I have been adding citations, are my efforts being counted?
 
-Yes! Adding valid citations to any triple that is missing a citation will qualify you for a special incentive, and will help the triples you have cited become verified. Citations should be focused around triples that are not URL predicates, especially triples added after the launch of [golden.xyz](http://golden.xyz).
+Yes. Adding valid citations to any triple that is missing a citation will qualify you for rewards, in addition to helping the triples you have cited become verified more quickly. Citations should be added to triples that are not URL-based predicates.
 
 ### **Will any contribution to** [**golden.com**](http://golden.com) **count for a future incentive reward?**
 
