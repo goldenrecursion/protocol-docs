@@ -11,7 +11,7 @@ description: >-
 Golden's GraphQL API offers developers powerful and flexible queries to retrieve, submit, and verify the data in the Golden protocol. For more information on Golden and the protocol please read the [README (2).md](<README (2).md> "mention") guide.
 
 {% hint style="info" %}
-The Golden protocol is currently live on the Goerli testnet.
+The Golden protocol is currently live on the Sepolia testnet.
 
 Verifiers submitting incorrect verifications (those that do not match the consensus verification vote on a triple) will be penalized by losing a portion of their testnet points (testnet points will be used to calculate future eligible airdrops). In extreme cases, verifiers may lose all of their testnet points and/or their access to dApp.
 
