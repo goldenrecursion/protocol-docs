@@ -15,7 +15,6 @@
 
 * [Golden Protocol FAQ](<README (2).md>)
 * [Incentivized Testnet Activities](protocol/incentivized-testnet-activities.md)
-* [Testnet Phase 2](protocol/testnet-phase-2.md)
 * [Guides](protocol/guides/README.md)
   * [Accessing the dApp](protocol/guides/accessing-the-dapp.md)
   * [Connecting a Wallet to dapp.golden.xyz](protocol/guides/connecting-a-wallet-to-dapp.golden.xyz.md)
