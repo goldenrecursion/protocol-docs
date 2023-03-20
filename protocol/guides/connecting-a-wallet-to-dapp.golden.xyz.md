@@ -14,9 +14,7 @@ Note: If you have not connected a wallet to your account on [Golden.com](http://
 
 {% embed url="https://jmp.sh/v/hcrQdwzxBrgMlBc3Fshj" %}
 
-2\. Switch your wallet connection network to Goerli Test Network.
-
-{% embed url="https://jmp.sh/6ird7RU" %}
+2\. Switch your wallet connection network to **Sepolia test network**.
 
 3\. Click connect wallet on [dapp.golden.xyz](https://dapp.golden.xyz/).\
 
