@@ -6,6 +6,8 @@ description: Learn about the next phase of the Golden testnet
 
 Testnet phase 2 introduces new requirements for submitters and verifiers prior to earning points and impacting consensus. Testnet phase 2 is designed to improve data quality and limit the influence of lazy voting and Sybil attacks. These are the initial mechanics of testnet phase 2 and are subject to modification and improvement.
 
+**Important note:** Historical Testnet Phase 1 points will remain for good actors.
+
 * All existing and new users must pass a qualification process to earn points.
 * There exists new groups of users: _Elected Verifiers, Qualified Verifiers, Qualified Submitters and everyone else._
 * Only _Qualified Verifiers_ votes impact consensus. \*\*
