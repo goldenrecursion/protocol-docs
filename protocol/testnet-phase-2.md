@@ -10,7 +10,7 @@ Testnet phase 2 introduces new requirements for submitters and verifiers prior t
 
 * All existing and new users must pass a qualification process to earn points.
 * There exists new groups of users: _Elected Verifiers, Qualified Verifiers, Qualified Submitters and everyone else._
-* Only _Qualified Verifiers_ votes impact consensus. \*\*
+* Only _Qualified Verifiers_ votes impact consensus.
 * Only _Qualified Submitters_ are able to submit data.
 * _Elected Verifiers_ are used to set accuracy benchmarks for the qualification process.
 * Users who have not passed the qualification process will not earn points in this phase.
