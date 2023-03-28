@@ -156,7 +156,7 @@ statements.append(
 # Add Email Address
 statements.append(
     StatementInputRecordInput(
-        predicate_id = predicates["Email address"]["id"],
+        predicate_id = predicates["Email Address"]["id"],
         object_value = email_address,
         citation_urls = [],
         qualifiers = [],
