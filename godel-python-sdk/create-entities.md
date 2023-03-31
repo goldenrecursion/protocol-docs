@@ -41,9 +41,9 @@ search_results_df
 | - | ------------------------------------ | ----------- | ------------------------------------------------- | ------------------------------------------------- | -------- | -------------------------------------------- |
 | 0 | d95ef4b0-e006-4203-bfb4-adbe99f63ce7 | Miles Wolff | Id nihil blanditiis eius fugit odit blanditiis... | https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHir... | None     | /entity/d95ef4b0-e006-4203-bfb4-adbe99f63ce7 |
 
-### 2. Get Predicates and Templates
+### 2. Get Predicates and Entity Types
 
-You can run the code below to get the list of accepted predicates into the knowledge graph, its data types, and submit templates for different kinds of entities.
+You can run the code below to get the list of allowed predicates in the current schema, their ids, and their expected object data type.
 
 ```python
 import pandas as pd
@@ -78,19 +78,50 @@ templates_df
 | Person  | 0dea0f27-ce0c-4b4f-8ddb-5ff6adb57e12 | 0c4e6054-5fd8-48a8-817c-f6611278f755 | None              |
 | Company | 9553f193-a46a-4b46-9c0f-5287289644a6 | 0a9fcc89-e14b-47af-85c3-8465ca607c29 | None              |
 
-### 3. Create Entity
+### 3. Check for Duplicates
 
 #### Source Data
 
-We need source data on the entity you would like to submit
+We need source data on the entity you would like to submit. Once we have this defined, we should check for existing duplicates of this entity in the graph.
 
 ```python
 name = "John Doe"
 is_a = "0c4e6054-5fd8-48a8-817c-f6611278f755"  # Person Template Entity Id
-ceo_of = "20ab9281-fd5f-4717-ab73-ecd24fff66fe"  # Huel and Sons Entity ID
+ceo_of = "6086ed2c-3e45-4480-8ad6-aced06fac6fd"  # Golden Entity ID
 email_address = "john.doe@example.com"
 citation_urls = ["https://golden.com/wiki/johndoe"]
 ```
+
+Calling the disambiguation function is necessary to create the entity in the next step, as the disambiguationCallId is required in the `CreateEntityInput` object.
+
+```
+john_doe_input = [
+    {
+        'Name': name,
+        'Is a': is_a,
+        'CEO of': ceo_of,
+        'Email Address': email_address,
+    }
+]
+response = goldapi.disambiguate_triples(twitter_example[0], with_diff=False)
+disambiguationCallId = response['data']['disambiguateTriples']['disambiguationCallId']
+response
+```
+
+```
+{
+   'data': {
+      'disambiguateTriples': 
+         {
+            'errors': None,
+            'disambiguationCallId': 'dcca2e44-8d9e-4edc-bcb6-48bb5fafc6bb',
+            'entities': []
+         }
+   }
+}
+```
+
+### 3. Create Entity
 
 #### Create Entity Input
 
@@ -179,7 +210,8 @@ Now that you have the statements, you can create your `CreateEntityInput`.
 ```python
 # Create Entity Input
 create_entity_input = CreateEntityInput(
-    statements = statements
+    statements = statements,
+    disambiguation_call_id=disambiguationCallId
 )
 create_entity_input.__to_json_value__()
 ```
@@ -206,29 +238,102 @@ data
 ```
 
 ```
-GraphQL query failed with 1 errors
-
-
-
-
-
-{'errors': [{'extensions': {'messages': [], 'exception': {}},
-   'message': 'All required statements must be provided:\n- entity type "person" must have a statement from at least one of these predicates: "website", "angelListUrl", "linkedInUrl", "founderOf", "ceoOf"',
-   'locations': [{'line': 2, 'column': 1}],
-   'path': ['createEntity'],
-   'stack': ['Error: All required statements must be provided:',
-    '- entity type "person" must have a statement from at least one of these predicates: "website", "angelListUrl", "linkedInUrl", "founderOf", "ceoOf"',
-    '    at checkMinimumRequiredStatements (/home/andrew/golden/dapp/app/db/entityMinimumRequiredStatements.ts:74:11)',
-    '    at createEntityWrapper (/home/andrew/golden/dapp/db/graphql/plugins/CreateEntityPlugin.server.ts:17:33)',
-    '    at resolve (/home/andrew/golden/dapp/node_modules/graphile-utils/src/makeWrapResolversPlugin.ts:180:18)',
-    '    at resolve (/home/andrew/golden/dapp/node_modules/@graphile/operation-hooks/lib/OperationHooksCorePlugin.js:122:38)',
-    '    at runMicrotasks (<anonymous>)',
-    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)',
-    '    at async /home/andrew/golden/dapp/node_modules/postgraphile/src/postgraphile/withPostGraphileContext.ts:227:16',
-    '    at async withAuthenticatedPgClient (/home/andrew/golden/dapp/node_modules/postgraphile/src/postgraphile/withPostGraphileContext.ts:169:20)',
-    '    at async /home/andrew/golden/dapp/node_modules/postgraphile/src/postgraphile/http/createPostGraphileHttpRequestHandler.ts:926:26',
-    '    at async Promise.all (index 0)']}],
- 'data': {'createEntity': None}}
+{'data': {'createEntity': {'entity': {'__typename': 'Entity',
+    'id': 'b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+    'pathname': '/entity/b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+    'name': 'John Doe',
+    'description': None,
+    'thumbnail': None,
+    'goldenId': None,
+    'isA': {'nodes': [{'id': '0c4e6054-5fd8-48a8-817c-f6611278f755',
+       'name': 'Person'}]},
+    'statementsBySubjectId': {'nodes': [{'__typename': 'Statement',
+       'id': '1d4175cc-9390-4a78-bc6d-e5d09abd1562',
+       'dateAccepted': None,
+       'dateRejected': None,
+       'userId': '0xb5c46393798dA8f4853BF9028d5c3F63C1a64EC8',
+       'validationStatus': 'PENDING',
+       'subject': {'id': 'b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+        'pathname': '/entity/b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+        'name': 'John Doe',
+        'thumbnail': None},
+       'predicate': {'id': '94a8d215-ce32-4379-b18e-2aebf0794882',
+        'name': 'Is a',
+        'description': '',
+        'label': 'The entity type of this entity',
+        'objectType': 'ENTITY',
+        'showInInfobox': True},
+       'objectValue': None,
+       'objectEntity': {'id': '0c4e6054-5fd8-48a8-817c-f6611278f755',
+        'pathname': '/entity-type/0c4e6054-5fd8-48a8-817c-f6611278f755',
+        'name': 'Person',
+        'thumbnail': None},
+       'citationsByTripleId': {'nodes': []},
+       'qualifiersBySubjectId': {'nodes': []}},
+      {'__typename': 'Statement',
+       'id': '3be03c2a-0e69-43a6-a606-70f6dd60925e',
+       'dateAccepted': None,
+       'dateRejected': None,
+       'userId': '0xb5c46393798dA8f4853BF9028d5c3F63C1a64EC8',
+       'validationStatus': 'PENDING',
+       'subject': {'id': 'b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+        'pathname': '/entity/b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+        'name': 'John Doe',
+        'thumbnail': None},
+       'predicate': {'id': '3104de39-071c-47b8-86b4-d62ccc4a4fa6',
+        'name': 'CEO of',
+        'description': 'The organization this individual is charged with the management of – especially an independent legal entity such as a company or nonprofit institution. The CEO of an organization typically reports to the board of directors.',
+        'label': 'Organization this person is CEO of.',
+        'objectType': 'ENTITY',
+        'showInInfobox': True},
+       'objectValue': None,
+       'objectEntity': {'id': '6086ed2c-3e45-4480-8ad6-aced06fac6fd',
+        'pathname': '/entity/6086ed2c-3e45-4480-8ad6-aced06fac6fd',
+        'name': 'Golden',
+        'thumbnail': 'https://golden-media.s3.amazonaws.com/topics/5253ceef-b9f0-49c5-ae0e-e6a445078551.png'},
+       'citationsByTripleId': {'nodes': []},
+       'qualifiersBySubjectId': {'nodes': []}},
+      {'__typename': 'Statement',
+       'id': 'beaf1542-041c-48af-af0f-dcec31e975f4',
+       'dateAccepted': None,
+       'dateRejected': None,
+       'userId': '0xb5c46393798dA8f4853BF9028d5c3F63C1a64EC8',
+       'validationStatus': 'PENDING',
+       'subject': {'id': 'b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+        'pathname': '/entity/b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+        'name': 'John Doe',
+        'thumbnail': None},
+       'predicate': {'id': '0efd0441-1ffc-4e30-8806-e58c434770c8',
+        'name': 'Email Address',
+        'description': 'The email address associated with this entity that is 1. public (it is openly known the entity is associated with this email address) and 2. official (the entity has formally associated themselves with this phone number by posting it on a website, social media link, etc. that they are in control of).',
+        'label': 'Email address associated with an entity.',
+        'objectType': 'STRING',
+        'showInInfobox': True},
+       'objectValue': 'john.doe@example.com',
+       'objectEntity': None,
+       'citationsByTripleId': {'nodes': []},
+       'qualifiersBySubjectId': {'nodes': []}},
+      {'__typename': 'Statement',
+       'id': 'c1accc97-46c2-454a-b8c7-1b9b37a9e424',
+       'dateAccepted': None,
+       'dateRejected': None,
+       'userId': '0xb5c46393798dA8f4853BF9028d5c3F63C1a64EC8',
+       'validationStatus': 'PENDING',
+       'subject': {'id': 'b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+        'pathname': '/entity/b58235c8-fdcf-4bc9-a6dc-e1749edc4a4f',
+        'name': 'John Doe',
+        'thumbnail': None},
+       'predicate': {'id': 'a27218b8-6a4d-47bb-95b6-5a55334fac1c',
+        'name': 'Name',
+        'description': '',
+        'label': 'The primary name associated with this entity',
+        'objectType': 'STRING',
+        'showInInfobox': False},
+       'objectValue': 'John Doe',
+       'objectEntity': None,
+       'citationsByTripleId': {'nodes': []},
+       'qualifiersBySubjectId': {'nodes': []}}]}}}}
+ }
 ```
 
 ```python
@@ -247,8 +352,4 @@ created_entity_id = data["data"]["createEntity"]["entity"]["id"]
 created_entity_id
 link = f"https://dapp.golden.xyz/entity/{created_entity_id}"
 link
-```
-
-```
-'https://dapp.golden.xyz/entity/18998a05-d972-44cc-9d45-c75c9477c98d'
 ```

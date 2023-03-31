@@ -27,9 +27,9 @@ query DisambiguationQuery {
   disambiguateTriples(
     payload: {
       triples: [
-        { predicate: "Name", object: "Apple" }
-        { predicate: "Website", object: "http://apple.com" }
-        { predicate: "Number of Employees", object: "154000" }
+        {predicate: "Name", object: "Apple"},
+        {predicate: "Website", object: "http://apple.com"},
+        {predicate: "Number of Employees", object: "154000"}
       ]
     }
   ) {
@@ -40,6 +40,7 @@ query DisambiguationQuery {
       distance
       reputation
     }
+    disambiguationCallId
   }
 }
 ```
@@ -48,35 +49,32 @@ Which at the time of writing these lines, returns the following:
 
 ```graphql
 {
-    "data": {
-        "disambiguateTriples": {
-        "entities": [
-            {
-            "id": "debcb513-b842-4645-9856-2f4ea975002b",
-            "name": "Apple (company)",
-            "date_created": "2022-01-29T16:14:30.067541",
-            "distance": 0.2222222222222222,
-            "reputation": 1
-            },
-            {
-            "id": "6d471830-4289-45ef-928c-7a3f87d4e031",
-            "name": "Apple",
-            "date_created": "2022-02-19T14:46:38.274665",
-            "distance": 0.463768115942029,
-            "reputation": 0.29754714586601044
-            },
-            {
-            "id": "c651ed77-7ad6-48fe-b60a-077d9103f4cb",
-            "name": "Apple",
-            "date_created": "2022-04-15T11:25:55.464839",
-            "distance": 0.5087719298245613,
-            "reputation": 0.20715657580048066
-            }
-        ]
-        }
+  "data": {
+    "disambiguateTriples": {
+      "entities": [
+        {
+          "id": "debcb513-b842-4645-9856-2f4ea975002b",
+          "name": "Apple (company)",
+          "date_created": "2022-01-29T16:14:30.067541",
+          "distance": 0.26666666666666666,
+          "reputation": 1
+        },
+        {
+          "id": "efbab68f-61a9-469a-857e-38965bc9116a",
+          "name": "Clustering",
+          "date_created": "2022-12-13T12:28:59.299942",
+          "distance": 0.4,
+          "reputation": 0.000005518280159191455
+        },
+        ..
+      ],
+      "disambiguationCallId": "ed86be05-5dd2-48e0-9aa0-498a7785f788"
     }
+  }
 }
 ```
+
+Note: the _disambiguationCallId_ **** is required to create an entity with the _createEntity_ mutation.
 
 In this particular response, we've received, as potential disambiguation entities, the following:
 
@@ -357,7 +355,7 @@ In this case, we've found that _Tim Cook_ on the graph is represented by the ent
 
 ### Summary
 
-In this tutorial, we've covered the main uses of the _disambiguateTriples()_ query on the GraphQL API, which is the main mechanism to find the entity identifiers in the graph when we have some information about an entity, but we can't locate its reference.
+In this tutorial, we've covered the main uses of the _disambiguateTriples()_ query on the GraphQL API, which is the main mechanism to find the entity identifiers in the graph when we have some information about an entity, but we can't locate its reference. Calling _disambiguateTriples()_ is required before entity creation, as the _disambiguationCallId_ returned is required when calling _createEntity()_.
 
 Disambiguation is a key process during triple submission, as it prevents the creation of entity duplicates and increases the usefulness of the graph as a source of knowledge.
 
