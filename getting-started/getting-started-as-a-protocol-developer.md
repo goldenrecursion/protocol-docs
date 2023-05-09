@@ -9,9 +9,7 @@ description: Learn how to help develop open source protocol components and mecha
 1. Connect to the dApp by following [accessing-the-dapp.md](../protocol/guides/accessing-the-dapp.md "mention") to understand the current state of the protocol.&#x20;
 2. Read the [README (2).md](<../README (2).md> "mention") to get familiar with the basic protocol mechanics.
 3. View the [Golden Github](https://github.com/goldenrecursion) repositories.&#x20;
-4. [Join the forum](https://forum.golden.xyz/), where proposals can be made with more nuanced discussion. &#x20;
-5. [Join Discord](https://discord.com/invite/golden-protocol), introduce yourself and mention what you are interested in working on.
-6. Explore the available guides, [data schema](https://dapp.golden.xyz/schema), [apps-and-demos.md](../data-and-tools/apps-and-demos.md "mention"), datasets, and posts.&#x20;
+4. Explore the available guides, [data schema](https://dapp.golden.xyz/schema), [apps-and-demos.md](../data-and-tools/apps-and-demos.md "mention"), datasets, and posts.&#x20;
 
 
 

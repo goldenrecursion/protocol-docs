@@ -6,10 +6,6 @@ description: Help build functional elements of the Golden Protocol.
 
 #### We welcome you to help define and build meaningful parts of the Golden protocol. Below we have identified projects and concepts of high value to the protocol's development. Working on these projects may make you eligible to earn testnet points; see the guidelines on [incentivized activities](https://goldenhq.notion.site/Golden-Incentivized-Testnet-Activities-de4142e2be0f45fe97e6c6db1009a767).
 
-{% hint style="info" %}
-If you have questions, comments, or suggestions to any of these topics please post in [<mark style="color:purple;background-color:purple;">**Discord**</mark>](https://discord.com/invite/golden-protocol) or on the [**forum**](https://forum.golden.xyz).
-{% endhint %}
-
 ## Protocol development
 
 Currently needed:

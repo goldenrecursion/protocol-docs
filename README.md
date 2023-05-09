@@ -8,8 +8,6 @@ Golden is building a permissionless, decentralized, open-source protocol that in
 
 The protocol is currently under development and running on the Goerli testnet. We are actively seeking users to help develop protocol components and act as data submitters or verifiers. Please read the [README (2).md](<README (2).md> "mention")for additional information on the protocol mechanics, testnet points, and other common questions.&#x20;
 
-_This docs site is designed to help users build and interact with the Golden knowledge graph. If you would like to learn more about the project at a higher level check out_ [_golden.xyz_](https://golden.xyz)_, join us on_ [_Discord_](https://discord.com/invite/golden-protocol)_, or read the_ [_blog_](https://golden.com/blog/golden-raises-40m-series-b/)_._
-
 
 
 ## Start here

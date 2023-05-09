@@ -10,8 +10,7 @@ description: >-
 
 1. [Get into the dApp](../protocol/guides/accessing-the-dapp.md) and retrieve your [authentication (JWT) token](../api/authentication.md).&#x20;
 2. Follow the quick start guide in the API docs&#x20;
-3. [Join Discord](https://discord.com/invite/golden-protocol), introduce yourself to the `#developers` channel and say what you are interested in making.
-4. Explore the available guides, [data schema](https://dapp.golden.xyz/schema), [apps-and-demos.md](../data-and-tools/apps-and-demos.md "mention"), datasets, and posts.
+3. Explore the available guides, [data schema](https://dapp.golden.xyz/schema), [apps-and-demos.md](../data-and-tools/apps-and-demos.md "mention"), datasets, and posts.
 
 
 

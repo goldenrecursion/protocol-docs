@@ -10,8 +10,6 @@ description: Learn how to earn rewards for collecting and uploading bulk data.
 2. Read the [README (2).md](<../README (2).md> "mention") to get familiar with the basic protocol mechanics.
 3. View the [protocol schema](https://dapp.golden.xyz/schema) to see the available predicates for data submission.
 4. Read the [data-sources.md](../data-and-tools/data-sources.md "mention") guide to start contributing datasets. &#x20;
-5. [Join the forum](https://forum.golden.xyz/), where proposals can be made with more nuanced discussion. &#x20;
-6. [Join Discord](https://discord.com/invite/golden-protocol), introduce yourself and mention what you are interested in working on.
 
 ## Contributing data and datasets
 

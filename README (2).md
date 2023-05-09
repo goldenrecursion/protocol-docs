@@ -17,8 +17,6 @@ Golden is building a permissionless, open-source protocol that incentivizes the 
 3. Help grow the knowledge graph by [adding data triples and citations](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to [Golden.com](http://golden.com) entity pages. Follow our [Adding Structured Data Guide](https://www.notion.so/Adding-Structured-Data-Guide-ae657337bf4f4e54ae4402df083c76ac) to get started.
    1. **Submit triples:** Users that submit fact triples that go on to be accepted will be eligible for mainnet incentives. _Please note, there is no need to paste edits of data triples and citations into Discord, we have a log of your efforts!_
    2. **Verify triples:** Users can become eligible for a future airdrop by verifying triples that get accepted by the protocol on [dapp.golden.xyz](http://dapp.golden.xyz). Please follow our [Triple Verification Guide](https://docs.golden.xyz/protocol/guides/triple-validation-guide) when verifying.
-4. Are you a builder (developer, data scientist etc.) that can help us? Let us know in Discord by [introducing yourself](https://discord.com/channels/900818355315961876/920015042471133204).
-5. Share the project! Tell your friends, developers, or family. [Join our Discord](https://discord.gg/28QcktsGmG) and invite like-minded people to [golden.xyz](https://golden.xyz).
 
 ### **What’s the TLDR on how the protocol works?**
 
