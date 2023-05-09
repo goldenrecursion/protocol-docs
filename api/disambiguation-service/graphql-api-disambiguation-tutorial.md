@@ -74,7 +74,7 @@ Which at the time of writing these lines, returns the following:
 }
 ```
 
-Note: the _disambiguationCallId_ **** is required to create an entity with the _createEntity_ mutation.
+Note: the _disambiguationCallId_ is required to create an entity with the _createEntity_ mutation.
 
 In this particular response, we've received, as potential disambiguation entities, the following:
 

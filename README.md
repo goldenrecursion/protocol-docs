@@ -1,12 +1,16 @@
 # Welcome to the Golden Protocol
 
+{% hint style="danger" %}
+Notice: This documentation site is now out-of-date and should be considered for historical reference only.&#x20;
+{% endhint %}
+
 Golden is building a permissionless, decentralized, open-source protocol that incentivizes the collection and verification of canonical knowledge. Protocol data will be offered to the public for free with commercial usage requiring payment. Continue reading [about-golden.md](predicates/about-golden.md "mention") for more.
 
 The protocol is currently under development and running on the Goerli testnet. We are actively seeking users to help develop protocol components and act as data submitters or verifiers. Please read the [README (2).md](<README (2).md> "mention")for additional information on the protocol mechanics, testnet points, and other common questions.&#x20;
 
 _This docs site is designed to help users build and interact with the Golden knowledge graph. If you would like to learn more about the project at a higher level check out_ [_golden.xyz_](https://golden.xyz)_, join us on_ [_Discord_](https://discord.com/invite/golden-protocol)_, or read the_ [_blog_](https://golden.com/blog/golden-raises-40m-series-b/)_._
 
-__
+
 
 ## Start here
 
@@ -16,27 +20,8 @@ Earn rewards for helping build the decentralized protocol for knowledge. Pick a 
 
 
 
-## Status and progress
 
-{% hint style="success" %}
-**The incentivized testnet is live**\
-****Make data, code, or intellectual contributions to earn testnet points. \
-\
-Learn how to earn: [incentivized-testnet-activities.md](protocol/incentivized-testnet-activities.md "mention") &#x20;
-{% endhint %}
-
-**Growing the graph:** users have contributed and verified millions of data triples on the Golden protocol. We are now scaling up data input through the [protocol API](<README (1).md>) and [dataset submissions](data-and-tools/data-sources.md#submitting-a-dataset). &#x20;
-
-**Protocol development:** We are developing a protocol, [dApp](https://dapp.golden.xyz/) and APIs for submitting and verifying triples.&#x20;
-
-
-
-## **Careers**
-
-We are actively hiring for engineering, tokenomics, and other roles. View open positions:
-
-{% embed url="https://goldenhq.notion.site/Golden-Careers-Public-c19e625ad4874be8b845b756ee1b0252" %}
 
 ## Community Channels&#x20;
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Discord</h3></td><td>Discuss ideas with 40k members and be the first to hear news </td><td><a href=".gitbook/assets/discord-banner (2).png">discord-banner (2).png</a></td><td><a href="https://discord.com/invite/golden-protocol">https://discord.com/invite/golden-protocol</a></td></tr><tr><td><h3>Forum</h3></td><td>Discuss proposals &#x26; mechanics</td><td><a href=".gitbook/assets/forum-card.jpg">forum-card.jpg</a></td><td><a href="https://forum.golden.xyz">https://forum.golden.xyz</a></td></tr><tr><td><h3>Twitter</h3></td><td>Follow for updates</td><td><a href=".gitbook/assets/twitter-card.jpg">twitter-card.jpg</a></td><td><a href="https://twitter.com/golden">https://twitter.com/golden</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Twitter</h3></td><td>Follow for updates</td><td><a href=".gitbook/assets/twitter-card.jpg">twitter-card.jpg</a></td><td><a href="https://twitter.com/golden">https://twitter.com/golden</a></td></tr></tbody></table>
